@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+<text x="380.0" y="26.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">技术演进的主线：把「私有互联」变成「开放互联」</text>
+<line x1="60.0" y1="340.0" x2="720.0" y2="340.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="60.0" y1="340.0" x2="720.0" y2="340.0" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="110.0" y1="334.0" x2="110.0" y2="346.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="110.0" y="364.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">2024</text>
+<line x1="285.0" y1="334.0" x2="285.0" y2="346.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="285.0" y="364.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">2026</text>
+<line x1="460.0" y1="334.0" x2="460.0" y2="346.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="460.0" y="364.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">2028</text>
+<line x1="635.0" y1="334.0" x2="635.0" y2="346.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="635.0" y="364.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">2030</text>
+<rect x="60.0" y="70.0" width="300.0" height="54.0" rx="8" fill="#f7dcdc" stroke="#a02020" stroke-width="1.4" opacity="1.0"/>
+<text x="76.0" y="94.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">Scale-up 以太网化</text>
+<text x="76.0" y="113.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">UALink / NVLink Fusion / ETH-X</text>
+<line x1="360.0" y1="97.0" x2="470.0" y2="320.0" stroke="#a02020" stroke-width="1.4" stroke-dasharray="4 3"/>
+<rect x="60.0" y="140.0" width="300.0" height="54.0" rx="8" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="76.0" y="164.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1f4e79" text-anchor="start" opacity="1.0">UEC 与 1.6T</text>
+<text x="76.0" y="183.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">Ultra Ethernet 统一超大规模无损</text>
+<line x1="360.0" y1="167.0" x2="470.0" y2="320.0" stroke="#1f4e79" stroke-width="1.4" stroke-dasharray="4 3"/>
+<rect x="60.0" y="210.0" width="300.0" height="54.0" rx="8" fill="#dceee2" stroke="#2e6b45" stroke-width="1.4" opacity="1.0"/>
+<text x="76.0" y="234.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#2e6b45" text-anchor="start" opacity="1.0">共封装光学 CPO</text>
+<text x="76.0" y="253.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">光互联下沉到封装，功耗密度重排</text>
+<line x1="360.0" y1="237.0" x2="470.0" y2="320.0" stroke="#2e6b45" stroke-width="1.4" stroke-dasharray="4 3"/>
+<rect x="60.0" y="280.0" width="300.0" height="54.0" rx="8" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.4" opacity="1.0"/>
+<text x="76.0" y="304.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#8a6a00" text-anchor="start" opacity="1.0">Scale-out 拓扑</text>
+<text x="76.0" y="323.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">轨道优化 → Dragonfly+ 等更大规模</text>
+<line x1="360.0" y1="307.0" x2="470.0" y2="320.0" stroke="#8a6a00" stroke-width="1.4" stroke-dasharray="4 3"/>
+<rect x="474.0" y="296.0" width="240.0" height="52.0" rx="8" fill="#f4f4f1" stroke="#1a1a1a" stroke-width="1.5" opacity="1.0"/>
+<text x="594.0" y="318.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">过渡方案 vs 终局</text>
+<text x="594.0" y="337.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">分清“能活 3 年”与“能活 10 年”</text>
+</svg>

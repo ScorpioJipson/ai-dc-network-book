@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" width="760" height="500" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="500" fill="#ffffff"/>
+<text x="380.0" y="28.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">两层 CLOS 的规模上限 = 端口数² ÷ 2（本案例 Y = 128 口 400G）</text>
+<text x="380.0" y="49.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">上限 = 8192 端点 = 1024 台服务器 = 8192 卡；r 每降一档，Spine 台数翻倍、规模上限翻倍</text>
+<rect x="190.0" y="84.0" width="400.0" height="44.0" rx="4" fill="#f6f6f3" stroke="#d8d8d2" stroke-width="0.9" opacity="1.0"/>
+<rect x="190.0" y="84.0" width="400.0" height="44.0" rx="4" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.2" opacity="1.0"/>
+<text x="176.0" y="104.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="end" opacity="1.0">r = 1</text>
+<text x="176.0" y="120.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">Spine × 64</text>
+<text x="600.0" y="104.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">1024 台 / 8192 卡</text>
+<rect x="190.0" y="146.0" width="400.0" height="44.0" rx="4" fill="#f6f6f3" stroke="#d8d8d2" stroke-width="0.9" opacity="1.0"/>
+<rect x="190.0" y="146.0" width="200.0" height="44.0" rx="4" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.2" opacity="1.0"/>
+<text x="176.0" y="166.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="end" opacity="1.0">r = 2</text>
+<text x="176.0" y="182.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">Spine × 32</text>
+<text x="600.0" y="166.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">512 台 / 4096 卡</text>
+<rect x="190.0" y="208.0" width="400.0" height="44.0" rx="4" fill="#f6f6f3" stroke="#d8d8d2" stroke-width="0.9" opacity="1.0"/>
+<rect x="190.0" y="208.0" width="100.0" height="44.0" rx="4" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.7" opacity="1.0"/>
+<text x="176.0" y="228.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#8a6a00" text-anchor="end" opacity="1.0">r = 4</text>
+<text x="176.0" y="244.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">Spine × 16</text>
+<text x="600.0" y="228.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">256 台 / 2048 卡</text>
+<text x="600.0" y="244.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#a02020" text-anchor="start" opacity="1.0">★ 四期 256 台把这一档用满</text>
+<rect x="190.0" y="270.0" width="400.0" height="44.0" rx="4" fill="#f6f6f3" stroke="#d8d8d2" stroke-width="0.9" opacity="1.0"/>
+<rect x="190.0" y="270.0" width="50.0" height="44.0" rx="4" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.7" opacity="1.0"/>
+<text x="176.0" y="290.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#8a6a00" text-anchor="end" opacity="1.0">r = 8</text>
+<text x="176.0" y="306.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">Spine × 8</text>
+<text x="600.0" y="290.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">128 台 / 1024 卡</text>
+<text x="600.0" y="306.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#a02020" text-anchor="start" opacity="1.0">★ 三期 128 台</text>
+<rect x="190.0" y="332.0" width="400.0" height="44.0" rx="4" fill="#f6f6f3" stroke="#d8d8d2" stroke-width="0.9" opacity="1.0"/>
+<rect x="190.0" y="332.0" width="25.0" height="44.0" rx="4" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.2" opacity="1.0"/>
+<text x="176.0" y="352.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="end" opacity="1.0">r = 16</text>
+<text x="176.0" y="368.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">Spine × 4</text>
+<text x="600.0" y="352.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">64 台 / 512 卡</text>
+<text x="600.0" y="368.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">故障域只剩 4 台 Spine</text>
+<line x1="190.0" y1="404.0" x2="590.0" y2="404.0" stroke="#4a4a46" stroke-width="1.2"/>
+<line x1="190.0" y1="399.0" x2="190.0" y2="409.0" stroke="#4a4a46" stroke-width="1.2"/>
+<text x="190.0" y="422.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">0</text>
+<line x1="240.0" y1="399.0" x2="240.0" y2="409.0" stroke="#4a4a46" stroke-width="1.2"/>
+<text x="240.0" y="422.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">128</text>
+<line x1="290.0" y1="399.0" x2="290.0" y2="409.0" stroke="#4a4a46" stroke-width="1.2"/>
+<text x="290.0" y="422.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">256</text>
+<line x1="390.0" y1="399.0" x2="390.0" y2="409.0" stroke="#4a4a46" stroke-width="1.2"/>
+<text x="390.0" y="422.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">512</text>
+<line x1="590.0" y1="399.0" x2="590.0" y2="409.0" stroke="#4a4a46" stroke-width="1.2"/>
+<text x="590.0" y="422.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">1024</text>
+<text x="622.0" y="422.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">服务器上限（台）</text>
+<rect x="40.0" y="434.0" width="680.0" height="52.0" rx="8" fill="#fcfcfa" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="60.0" y="456.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">本案例：三期 128 台 = r=8 档的规模（实际按 r=4 排布，Spine 只用 64/128 = 50%）；四期 256 台把 r=4 档用满。</text>
+<text x="60.0" y="474.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">再往上不是上三层，而是加 Spine（16→32→64）+ 上联重排（4→2→1 条/对）；r 档位有限：须整除 P/2，同轨下还须 r ≤ P÷m = 16。</text>
+</svg>

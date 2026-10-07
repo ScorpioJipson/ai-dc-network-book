@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="470" fill="#ffffff"/>
+<rect x="20.0" y="40.0" width="350.0" height="200.0" rx="8" fill="#fcfcfa" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="36.0" y="64.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#4a4a46" text-anchor="start" opacity="1.0">A</text>
+<text x="60.0" y="64.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">数据并行 DP</text>
+<circle cx="90.0" cy="118.0" r="17.0" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="90.0" y="122.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">N1</text>
+<circle cx="250.0" cy="118.0" r="17.0" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="250.0" y="122.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">N2</text>
+<circle cx="90.0" cy="188.0" r="17.0" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="90.0" y="192.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">N3</text>
+<circle cx="250.0" cy="188.0" r="17.0" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="250.0" y="192.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">N4</text>
+<line x1="90.0" y1="118.0" x2="250.0" y2="118.0" stroke="#1f4e79" stroke-width="1.5"/>
+<line x1="90.0" y1="118.0" x2="250.0" y2="118.0" stroke="#1f4e79" stroke-width="1.5" marker-end="url(#ah-s)"/>
+<line x1="250.0" y1="118.0" x2="250.0" y2="188.0" stroke="#1f4e79" stroke-width="1.5"/>
+<line x1="250.0" y1="118.0" x2="250.0" y2="188.0" stroke="#1f4e79" stroke-width="1.5" marker-end="url(#ah-s)"/>
+<line x1="250.0" y1="188.0" x2="90.0" y2="188.0" stroke="#1f4e79" stroke-width="1.5"/>
+<line x1="250.0" y1="188.0" x2="90.0" y2="188.0" stroke="#1f4e79" stroke-width="1.5" marker-end="url(#ah-s)"/>
+<line x1="90.0" y1="188.0" x2="90.0" y2="118.0" stroke="#1f4e79" stroke-width="1.5"/>
+<line x1="90.0" y1="188.0" x2="90.0" y2="118.0" stroke="#1f4e79" stroke-width="1.5" marker-end="url(#ah-s)"/>
+<text x="170.0" y="232.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">梯度 AllReduce：每步一次全局同步</text>
+<rect x="390.0" y="40.0" width="350.0" height="200.0" rx="8" fill="#fcfcfa" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="406.0" y="64.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#4a4a46" text-anchor="start" opacity="1.0">B</text>
+<text x="430.0" y="64.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">张量并行 TP</text>
+<circle cx="460.0" cy="118.0" r="17.0" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="460.0" y="122.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">N1</text>
+<circle cx="620.0" cy="118.0" r="17.0" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="620.0" y="122.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">N2</text>
+<circle cx="460.0" cy="188.0" r="17.0" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="460.0" y="192.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">N3</text>
+<circle cx="620.0" cy="188.0" r="17.0" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="620.0" y="192.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">N4</text>
+<line x1="460.0" y1="118.0" x2="620.0" y2="118.0" stroke="#8a6a00" stroke-width="1.3"/>
+<line x1="460.0" y1="118.0" x2="620.0" y2="118.0" stroke="#8a6a00" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<line x1="460.0" y1="188.0" x2="620.0" y2="188.0" stroke="#8a6a00" stroke-width="1.3"/>
+<line x1="460.0" y1="188.0" x2="620.0" y2="188.0" stroke="#8a6a00" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<line x1="460.0" y1="118.0" x2="460.0" y2="188.0" stroke="#8a6a00" stroke-width="1.3"/>
+<line x1="460.0" y1="118.0" x2="460.0" y2="188.0" stroke="#8a6a00" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<line x1="620.0" y1="118.0" x2="620.0" y2="188.0" stroke="#8a6a00" stroke-width="1.3"/>
+<line x1="620.0" y1="118.0" x2="620.0" y2="188.0" stroke="#8a6a00" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<line x1="460.0" y1="118.0" x2="620.0" y2="188.0" stroke="#8a6a00" stroke-width="1.3"/>
+<line x1="460.0" y1="118.0" x2="620.0" y2="188.0" stroke="#8a6a00" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<line x1="620.0" y1="118.0" x2="460.0" y2="188.0" stroke="#8a6a00" stroke-width="1.3"/>
+<line x1="620.0" y1="118.0" x2="460.0" y2="188.0" stroke="#8a6a00" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<text x="565.0" y="232.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">层内切分：带宽需求极高，须留在 NVLink 域</text>
+<rect x="20.0" y="255.0" width="350.0" height="200.0" rx="8" fill="#fcfcfa" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="36.0" y="279.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#4a4a46" text-anchor="start" opacity="1.0">C</text>
+<text x="60.0" y="279.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">流水并行 PP</text>
+<circle cx="78.0" cy="360.0" r="17.0" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="78.0" y="364.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">S1</text>
+<circle cx="168.0" cy="360.0" r="17.0" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="168.0" y="364.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">S2</text>
+<circle cx="258.0" cy="360.0" r="17.0" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="258.0" y="364.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">S3</text>
+<circle cx="348.0" cy="360.0" r="17.0" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="348.0" y="364.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">S4</text>
+<line x1="96.0" y1="360.0" x2="150.0" y2="360.0" stroke="#5c5c58" stroke-width="1.6"/>
+<line x1="96.0" y1="360.0" x2="150.0" y2="360.0" stroke="#5c5c58" stroke-width="1.6" marker-end="url(#ah-s)"/>
+<line x1="186.0" y1="360.0" x2="240.0" y2="360.0" stroke="#5c5c58" stroke-width="1.6"/>
+<line x1="186.0" y1="360.0" x2="240.0" y2="360.0" stroke="#5c5c58" stroke-width="1.6" marker-end="url(#ah-s)"/>
+<line x1="276.0" y1="360.0" x2="330.0" y2="360.0" stroke="#5c5c58" stroke-width="1.6"/>
+<line x1="276.0" y1="360.0" x2="330.0" y2="360.0" stroke="#5c5c58" stroke-width="1.6" marker-end="url(#ah-s)"/>
+<text x="195.0" y="425.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">跨 stage 传激活值：通信量小，可用低速链路</text>
+<rect x="390.0" y="255.0" width="350.0" height="200.0" rx="8" fill="#fcfcfa" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="406.0" y="279.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#4a4a46" text-anchor="start" opacity="1.0">D</text>
+<text x="430.0" y="279.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">专家并行 EP</text>
+<circle cx="460.0" cy="333.0" r="17.0" fill="#f7dcdc" stroke="#a02020" stroke-width="1.6"/>
+<text x="460.0" y="337.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">N1</text>
+<circle cx="620.0" cy="333.0" r="17.0" fill="#f7dcdc" stroke="#a02020" stroke-width="1.6"/>
+<text x="620.0" y="337.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">N2</text>
+<circle cx="460.0" cy="403.0" r="17.0" fill="#f7dcdc" stroke="#a02020" stroke-width="1.6"/>
+<text x="460.0" y="407.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">N3</text>
+<circle cx="620.0" cy="403.0" r="17.0" fill="#f7dcdc" stroke="#a02020" stroke-width="1.6"/>
+<text x="620.0" y="407.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">N4</text>
+<line x1="460.0" y1="333.0" x2="620.0" y2="403.0" stroke="#a02020" stroke-width="1.5"/>
+<line x1="460.0" y1="333.0" x2="620.0" y2="403.0" stroke="#a02020" stroke-width="1.5" marker-end="url(#ah-s)"/>
+<line x1="620.0" y1="333.0" x2="460.0" y2="403.0" stroke="#a02020" stroke-width="1.5"/>
+<line x1="620.0" y1="333.0" x2="460.0" y2="403.0" stroke="#a02020" stroke-width="1.5" marker-end="url(#ah-s)"/>
+<line x1="460.0" y1="333.0" x2="460.0" y2="403.0" stroke="#a02020" stroke-width="1.5"/>
+<line x1="460.0" y1="333.0" x2="460.0" y2="403.0" stroke="#a02020" stroke-width="1.5" marker-end="url(#ah-s)"/>
+<line x1="620.0" y1="333.0" x2="620.0" y2="403.0" stroke="#a02020" stroke-width="1.5"/>
+<line x1="620.0" y1="333.0" x2="620.0" y2="403.0" stroke="#a02020" stroke-width="1.5" marker-end="url(#ah-s)"/>
+<text x="565.0" y="447.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">MoE AllToAll：跨轨流量≈100%，收敛比必须 1:1</text>
+</svg>

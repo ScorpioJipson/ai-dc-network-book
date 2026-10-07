@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 720" width="1240" height="720" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="1240" height="720" fill="#ffffff"/>
+<text x="620.0" y="30.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">跨轨流量的三条路径（同轨组网，源 GPU a → 目的 GPU b）</text>
+<text x="620.0" y="52.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">① 走网络（本案例）　② 走 PXN 出口亲和　③ 走机内中转（Rail-Only）</text>
+<text x="40.0" y="92.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">① 走网络（本案例）：上联全交叉，跨轨经 Spine 一跳</text>
+<rect x="40.0" y="122.0" width="200.0" height="48.0" rx="7" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="140.0" y="138.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">源 GPU a</text>
+<text x="140.0" y="153.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">+ 本机 a 号网卡</text>
+<rect x="280.0" y="122.0" width="200.0" height="48.0" rx="7" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="380.0" y="139.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Leaf（轨 a）</text>
+<text x="380.0" y="159.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">下联分组</text>
+<rect x="520.0" y="122.0" width="200.0" height="48.0" rx="7" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.4" opacity="1.0"/>
+<text x="620.0" y="139.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Spine</text>
+<text x="620.0" y="159.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">上联全交叉</text>
+<rect x="760.0" y="122.0" width="200.0" height="48.0" rx="7" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="860.0" y="139.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Leaf（轨 b）</text>
+<text x="860.0" y="159.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">下联分组</text>
+<rect x="1000.0" y="122.0" width="200.0" height="48.0" rx="7" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="1100.0" y="138.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">对端 b 号网卡</text>
+<text x="1100.0" y="153.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">+ 目的 GPU b</text>
+<line x1="243.0" y1="146.0" x2="277.0" y2="146.0" stroke="#1f4e79" stroke-width="1.5"/>
+<line x1="243.0" y1="146.0" x2="277.0" y2="146.0" stroke="#1f4e79" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="483.0" y1="146.0" x2="517.0" y2="146.0" stroke="#1f4e79" stroke-width="1.5"/>
+<line x1="483.0" y1="146.0" x2="517.0" y2="146.0" stroke="#1f4e79" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="723.0" y1="146.0" x2="757.0" y2="146.0" stroke="#1f4e79" stroke-width="1.5"/>
+<line x1="723.0" y1="146.0" x2="757.0" y2="146.0" stroke="#1f4e79" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="963.0" y1="146.0" x2="997.0" y2="146.0" stroke="#1f4e79" stroke-width="1.5"/>
+<line x1="963.0" y1="146.0" x2="997.0" y2="146.0" stroke="#1f4e79" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="40.0" y="204.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">网内 3 跳：源 → Leaf(a) → Spine → Leaf(b) → 目的；1:1 时无损。</text>
+<text x="40.0" y="224.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">前提：上联全交叉（P2 单平面）—— 全程不进节点内部，不依赖 NVLink。</text>
+<text x="40.0" y="282.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">② 走 PXN 出口亲和：把数据搬到“别人的网卡”再出去</text>
+<rect x="40.0" y="312.0" width="200.0" height="48.0" rx="7" fill="#f4f4f1" stroke="#4a4a46" stroke-width="1.4" opacity="1.0"/>
+<text x="140.0" y="336.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">源 GPU a</text>
+<rect x="313.3" y="312.0" width="250.0" height="48.0" rx="7" fill="#f7dcdc" stroke="#a02020" stroke-width="1.4" opacity="1.0"/>
+<text x="438.3" y="328.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">本机 GPU b</text>
+<text x="438.3" y="343.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">（NVLink 中转）</text>
+<rect x="636.7" y="312.0" width="290.0" height="48.0" rx="7" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="781.7" y="336.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">平面 b：Leaf → Spine → Leaf</text>
+<rect x="1000.0" y="312.0" width="200.0" height="48.0" rx="7" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="1100.0" y="328.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">对端 b 号网卡</text>
+<text x="1100.0" y="343.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">+ 目的 GPU b</text>
+<line x1="243.0" y1="336.0" x2="310.3" y2="336.0" stroke="#8a6a00" stroke-width="1.9" stroke-dasharray="5,4"/>
+<line x1="243.0" y1="336.0" x2="310.3" y2="336.0" stroke="#8a6a00" stroke-width="1.9" stroke-dasharray="5,4" marker-end="url(#ah)"/>
+<text x="276.7" y="327.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="700" fill="#8a6a00" text-anchor="middle" opacity="1.0">NVLink</text>
+<line x1="566.3" y1="336.0" x2="633.7" y2="336.0" stroke="#1f4e79" stroke-width="1.5"/>
+<line x1="566.3" y1="336.0" x2="633.7" y2="336.0" stroke="#1f4e79" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="929.7" y1="336.0" x2="997.0" y2="336.0" stroke="#1f4e79" stroke-width="1.5"/>
+<line x1="929.7" y1="336.0" x2="997.0" y2="336.0" stroke="#1f4e79" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="40.0" y="394.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">官方名称 PXN：“inter-node communication using a non-local NIC, using NVLink and an intermediate GPU”。</text>
+<text x="40.0" y="414.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">前提：节点内 GPU 之间有 NVLink / NVSwitch；默认开启（NCCL_P2P_PXN_LEVEL = 2）。</text>
+<text x="40.0" y="472.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">③ 走机内中转（Rail-Only）：平面之间完全独立时的唯一走法</text>
+<rect x="40.0" y="502.0" width="200.0" height="48.0" rx="7" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="140.0" y="518.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">源 GPU a</text>
+<text x="140.0" y="533.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">+ 本机 a 号网卡</text>
+<rect x="310.0" y="502.0" width="290.0" height="48.0" rx="7" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="455.0" y="526.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">平面 a：Leaf → Spine → Leaf</text>
+<rect x="670.0" y="502.0" width="210.0" height="48.0" rx="7" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="775.0" y="526.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">对端 a 号网卡</text>
+<rect x="950.0" y="502.0" width="250.0" height="48.0" rx="7" fill="#f7dcdc" stroke="#a02020" stroke-width="1.4" opacity="1.0"/>
+<text x="1075.0" y="518.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">目的 GPU b</text>
+<text x="1075.0" y="533.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">（节点内 NVLink）</text>
+<line x1="243.0" y1="526.0" x2="307.0" y2="526.0" stroke="#1f4e79" stroke-width="1.5"/>
+<line x1="243.0" y1="526.0" x2="307.0" y2="526.0" stroke="#1f4e79" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="603.0" y1="526.0" x2="667.0" y2="526.0" stroke="#1f4e79" stroke-width="1.5"/>
+<line x1="603.0" y1="526.0" x2="667.0" y2="526.0" stroke="#1f4e79" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="883.0" y1="526.0" x2="947.0" y2="526.0" stroke="#8a6a00" stroke-width="1.9" stroke-dasharray="5,4"/>
+<line x1="883.0" y1="526.0" x2="947.0" y2="526.0" stroke="#8a6a00" stroke-width="1.9" stroke-dasharray="5,4" marker-end="url(#ah)"/>
+<text x="915.0" y="517.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="700" fill="#8a6a00" text-anchor="middle" opacity="1.0">NVLink</text>
+<text x="40.0" y="584.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">跨轨那一跳落到节点内部；路径的可用性取决于两端机内互联的带宽。</text>
+<text x="40.0" y="604.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">前提：同上；且平面之间无共享 Spine（官方：“not connected at a core layer level”）。</text>
+<line x1="40.0" y1="648.0" x2="72.0" y2="648.0" stroke="#1f4e79" stroke-width="1.9"/>
+<text x="80.0" y="652.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">实线 = 走网络</text>
+<line x1="268.0" y1="648.0" x2="300.0" y2="648.0" stroke="#8a6a00" stroke-width="1.9" stroke-dasharray="5,4"/>
+<text x="308.0" y="652.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">虚线 = 节点内互联（NVLink）</text>
+<rect x="40.0" y="664.0" width="1160.0" height="50.0" rx="8" fill="#fcfcfa" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="60.0" y="686.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">跨轨 ≠ 只能靠 NVLink：只有 ③ 才必须。本案例走 ①，上联全交叉即可 —— 这是把风险从“机型”挪到“网络”的选择。</text>
+<text x="60.0" y="704.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">官方依据：DGX SuperPOD「Traffic between nodes, or between rails, traverses the spine layer」；NCCL「rails still need to be connected at the top」。</text>
+</svg>

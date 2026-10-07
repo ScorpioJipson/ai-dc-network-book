@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="430" fill="#ffffff"/>
+<text x="380.0" y="26.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">机柜与走线：柜位、U 位、缆长三样错一样，全线缆重打</text>
+<rect x="60.0" y="48.0" width="150.0" height="300.0" rx="6" fill="#fbfbf8" stroke="#1a1a1a" stroke-width="1.5" opacity="1.0"/>
+<text x="135.0" y="68.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">服务器柜 A01</text>
+<rect x="72.0" y="84.0" width="126.0" height="34.0" rx="4" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.1" opacity="1.0"/>
+<text x="135.0" y="105.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#1a1a1a" text-anchor="middle" opacity="1.0">4U 服务器 U17–U20</text>
+<rect x="72.0" y="126.0" width="126.0" height="34.0" rx="4" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.1" opacity="1.0"/>
+<text x="135.0" y="147.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#1a1a1a" text-anchor="middle" opacity="1.0">4U 服务器 U13–U16</text>
+<rect x="72.0" y="168.0" width="126.0" height="34.0" rx="4" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.1" opacity="1.0"/>
+<text x="135.0" y="189.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#1a1a1a" text-anchor="middle" opacity="1.0">4U 服务器 U9–U12</text>
+<rect x="72.0" y="210.0" width="126.0" height="34.0" rx="4" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.1" opacity="1.0"/>
+<text x="135.0" y="231.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#1a1a1a" text-anchor="middle" opacity="1.0">4U 服务器 U5–U8</text>
+<rect x="72.0" y="252.0" width="126.0" height="34.0" rx="4" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.1" opacity="1.0"/>
+<text x="135.0" y="273.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#1a1a1a" text-anchor="middle" opacity="1.0">4U 服务器 U1–U4</text>
+<text x="135.0" y="320.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">8×400G + 2×100G</text>
+<text x="135.0" y="336.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">+ 2×25G + BMC</text>
+<rect x="300.0" y="48.0" width="150.0" height="300.0" rx="6" fill="#fbfbf8" stroke="#1a1a1a" stroke-width="1.5" opacity="1.0"/>
+<text x="375.0" y="68.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">网络柜 A08（轨 1）</text>
+<rect x="312.0" y="84.0" width="126.0" height="40.0" rx="4" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.2" opacity="1.0"/>
+<text x="375.0" y="109.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Leaf 交换机 ×3</text>
+<rect x="312.0" y="134.0" width="126.0" height="40.0" rx="4" fill="#f4f4f1" stroke="#1a1a1a" stroke-width="1.1" opacity="1.0"/>
+<text x="375.0" y="159.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">MPO 配线箱 1U</text>
+<rect x="312.0" y="184.0" width="126.0" height="30.0" rx="4" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1" opacity="1.0"/>
+<text x="375.0" y="203.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">预留 / 理线</text>
+<rect x="312.0" y="222.0" width="126.0" height="30.0" rx="4" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1" opacity="1.0"/>
+<text x="375.0" y="241.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">预留 / 理线</text>
+<rect x="312.0" y="260.0" width="126.0" height="30.0" rx="4" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1" opacity="1.0"/>
+<text x="375.0" y="279.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">预留 / 理线</text>
+<rect x="312.0" y="298.0" width="126.0" height="30.0" rx="4" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1" opacity="1.0"/>
+<text x="375.0" y="317.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">预留 / 理线</text>
+<rect x="510.0" y="48.0" width="210.0" height="300.0" rx="6" fill="#fcfcfa" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="615.0" y="68.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">缆长分档（MPO12 OM4）</text>
+<rect x="524.0" y="84.0" width="182.0" height="32.0" rx="5" fill="#f4f4f1" stroke="#4a4a46" stroke-width="1.2" opacity="1.0"/>
+<text x="560.0" y="104.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">同柜内</text>
+<text x="660.0" y="104.0" font-family="Consolas, NSimSun, monospace" font-size="10.5" font-weight="normal" fill="#1a1a1a" text-anchor="middle" opacity="1.0">3 / 5 m</text>
+<rect x="524.0" y="124.0" width="182.0" height="32.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.2" opacity="1.0"/>
+<text x="560.0" y="144.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">邻柜</text>
+<text x="660.0" y="144.0" font-family="Consolas, NSimSun, monospace" font-size="10.5" font-weight="normal" fill="#1a1a1a" text-anchor="middle" opacity="1.0">15 / 20 m</text>
+<rect x="524.0" y="164.0" width="182.0" height="32.0" rx="5" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.2" opacity="1.0"/>
+<text x="560.0" y="184.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">跨柱</text>
+<text x="660.0" y="184.0" font-family="Consolas, NSimSun, monospace" font-size="10.5" font-weight="normal" fill="#1a1a1a" text-anchor="middle" opacity="1.0">25 m</text>
+<rect x="524.0" y="204.0" width="182.0" height="32.0" rx="5" fill="#f7dcdc" stroke="#a02020" stroke-width="1.2" opacity="1.0"/>
+<text x="560.0" y="224.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">对角最远</text>
+<text x="660.0" y="224.0" font-family="Consolas, NSimSun, monospace" font-size="10.5" font-weight="normal" fill="#1a1a1a" text-anchor="middle" opacity="1.0">35 m</text>
+<text x="615.0" y="268.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">★ 按「端口账」核缆长，</text>
+<text x="615.0" y="284.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">不按经验估。</text>
+<text x="615.0" y="320.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#a02020" text-anchor="middle" opacity="1.0">改 U 位 → 垂直段加长
+→ 582 条缆分档整体重算</text>
+<line x1="198.0" y1="120.0" x2="312.0" y2="100.0" stroke="#1f4e79" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="198.0" y1="162.0" x2="312.0" y2="112.0" stroke="#1f4e79" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="198.0" y1="204.0" x2="312.0" y2="124.0" stroke="#1f4e79" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="380.0" y="380.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">★ 三个纸面小错：读错图纸（行/列转 90°）、柜位按字母序错放（D13 插到 LF04 后）、现场改 U 位导致缆长重算。</text>
+</svg>

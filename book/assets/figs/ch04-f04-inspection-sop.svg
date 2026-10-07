@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 316" width="760" height="316" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="316" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">端面清洁与插接的四步 SOP：顺序不可颠倒</text>
+<rect x="44.0" y="62.0" width="142.0" height="116.0" rx="8" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6" opacity="1.0"/>
+<text x="115.0" y="94.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="17" font-weight="700" fill="#1f4e79" text-anchor="middle" opacity="1.0">一按</text>
+<text x="115.0" y="122.9" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">一按式清洁器</text>
+<text x="115.0" y="137.1" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">清洁插芯端面</text>
+<line x1="188.0" y1="120.0" x2="220.0" y2="120.0" stroke="#4a4a46" stroke-width="1.6"/>
+<line x1="188.0" y1="120.0" x2="220.0" y2="120.0" stroke="#4a4a46" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="222.0" y="62.0" width="142.0" height="116.0" rx="8" fill="#dceee2" stroke="#2e6b45" stroke-width="1.6" opacity="1.0"/>
+<text x="293.0" y="94.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="17" font-weight="700" fill="#2e6b45" text-anchor="middle" opacity="1.0">二擦</text>
+<text x="293.0" y="122.9" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">无尘纸 + 酒精</text>
+<text x="293.0" y="137.1" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">擦拭外壳与键位</text>
+<line x1="366.0" y1="120.0" x2="398.0" y2="120.0" stroke="#4a4a46" stroke-width="1.6"/>
+<line x1="366.0" y1="120.0" x2="398.0" y2="120.0" stroke="#4a4a46" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="400.0" y="62.0" width="142.0" height="116.0" rx="8" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.6" opacity="1.0"/>
+<text x="471.0" y="94.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="17" font-weight="700" fill="#5a3f86" text-anchor="middle" opacity="1.0">三检</text>
+<text x="471.0" y="122.9" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">端面显微镜</text>
+<text x="471.0" y="137.1" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">确认无划痕/污染</text>
+<line x1="544.0" y1="120.0" x2="576.0" y2="120.0" stroke="#4a4a46" stroke-width="1.6"/>
+<line x1="544.0" y1="120.0" x2="576.0" y2="120.0" stroke="#4a4a46" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="578.0" y="62.0" width="142.0" height="116.0" rx="8" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.6" opacity="1.0"/>
+<text x="649.0" y="94.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="17" font-weight="700" fill="#8a6a00" text-anchor="middle" opacity="1.0">四插</text>
+<text x="649.0" y="122.9" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">对准键位与极性</text>
+<text x="649.0" y="137.1" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">插入并确认到位</text>
+<rect x="44.0" y="200.0" width="672.0" height="44.0" rx="6" fill="#f4f4f1" stroke="#4a4a46" stroke-width="1.2" opacity="1.0"/>
+<text x="60.0" y="228.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">三件工具：一按式清洁器 ｜ 无尘纸 + 无尘酒精 ｜ 端面显微镜（≥200×）</text>
+<rect x="44.0" y="256.0" width="672.0" height="40.0" rx="6" fill="#f7dcdc" stroke="#a02020" stroke-width="1.4" opacity="1.0"/>
+<text x="60.0" y="281.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.6" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">跳过“三检”= 把看不见的污染直接插进端口：现场 6 dB 的超标插损，多出来的 3.6 dB 全在这里。</text>
+</svg>

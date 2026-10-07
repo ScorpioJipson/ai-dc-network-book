@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" width="760" height="500" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="500" fill="#ffffff"/>
+<text x="380.0" y="26.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Spine ×16（AS 65001，128 口 400G）</text>
+<rect x="60.0" y="40.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="91.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP1</text>
+<rect x="142.0" y="40.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="173.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP2</text>
+<rect x="224.0" y="40.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="255.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP3</text>
+<rect x="306.0" y="40.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="337.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP4</text>
+<rect x="388.0" y="40.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="419.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP5</text>
+<rect x="470.0" y="40.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="501.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP6</text>
+<rect x="552.0" y="40.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="583.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP7</text>
+<rect x="634.0" y="40.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="665.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP8</text>
+<rect x="60.0" y="78.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="91.0" y="98.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP9</text>
+<rect x="142.0" y="78.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="173.0" y="98.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP10</text>
+<rect x="224.0" y="78.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="255.0" y="98.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP11</text>
+<rect x="306.0" y="78.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="337.0" y="98.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP12</text>
+<rect x="388.0" y="78.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="419.0" y="98.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP13</text>
+<rect x="470.0" y="78.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="501.0" y="98.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP14</text>
+<rect x="552.0" y="78.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="583.0" y="98.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP15</text>
+<rect x="634.0" y="78.0" width="62.0" height="30.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="665.0" y="98.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SP16</text>
+<rect x="60.0" y="200.0" width="62.0" height="58.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="91.0" y="222.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">轨 1</text>
+<text x="91.0" y="240.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">Leaf×2</text>
+<line x1="91.0" y1="200.0" x2="91.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3"/>
+<line x1="91.0" y1="200.0" x2="91.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="142.0" y="200.0" width="62.0" height="58.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="173.0" y="222.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">轨 2</text>
+<text x="173.0" y="240.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">Leaf×2</text>
+<line x1="173.0" y1="200.0" x2="173.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3"/>
+<line x1="173.0" y1="200.0" x2="173.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="224.0" y="200.0" width="62.0" height="58.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="255.0" y="222.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">轨 3</text>
+<text x="255.0" y="240.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">Leaf×2</text>
+<line x1="255.0" y1="200.0" x2="255.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3"/>
+<line x1="255.0" y1="200.0" x2="255.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="306.0" y="200.0" width="62.0" height="58.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="337.0" y="222.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">轨 4</text>
+<text x="337.0" y="240.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">Leaf×2</text>
+<line x1="337.0" y1="200.0" x2="337.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3"/>
+<line x1="337.0" y1="200.0" x2="337.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="388.0" y="200.0" width="62.0" height="58.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="419.0" y="222.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">轨 5</text>
+<text x="419.0" y="240.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">Leaf×2</text>
+<line x1="419.0" y1="200.0" x2="419.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3"/>
+<line x1="419.0" y1="200.0" x2="419.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="470.0" y="200.0" width="62.0" height="58.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="501.0" y="222.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">轨 6</text>
+<text x="501.0" y="240.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">Leaf×2</text>
+<line x1="501.0" y1="200.0" x2="501.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3"/>
+<line x1="501.0" y1="200.0" x2="501.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="552.0" y="200.0" width="62.0" height="58.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="583.0" y="222.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">轨 7</text>
+<text x="583.0" y="240.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">Leaf×2</text>
+<line x1="583.0" y1="200.0" x2="583.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3"/>
+<line x1="583.0" y1="200.0" x2="583.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="634.0" y="200.0" width="62.0" height="58.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="665.0" y="222.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">轨 8</text>
+<text x="665.0" y="240.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">Leaf×2</text>
+<line x1="665.0" y1="200.0" x2="665.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3"/>
+<line x1="665.0" y1="200.0" x2="665.0" y2="112.0" stroke="#5a3f86" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="146.0" y="177.0" width="468.0" height="17.0" rx="0" fill="#ffffff" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="380.0" y="190.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">① 每 Leaf 上联 64 口 ÷ 16 Spine = 4 条/对  ② 上联链路共 1024 条</text>
+<rect x="60.0" y="340.0" width="646.0" height="52.0" rx="8" fill="#f4f4f1" stroke="#1a1a1a" stroke-width="1.5" opacity="1.0"/>
+<text x="383.0" y="362.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">H100 服务器 ×128</text>
+<text x="383.0" y="382.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">每台 8 张 400G 网卡 → 第 k 号网卡固定进第 k 轨（共 8 轨）</text>
+<line x1="91.0" y1="340.0" x2="91.0" y2="258.0" stroke="#1f4e79" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="173.0" y1="340.0" x2="173.0" y2="258.0" stroke="#1f4e79" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="255.0" y1="340.0" x2="255.0" y2="258.0" stroke="#1f4e79" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="337.0" y1="340.0" x2="337.0" y2="258.0" stroke="#1f4e79" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="419.0" y1="340.0" x2="419.0" y2="258.0" stroke="#1f4e79" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="501.0" y1="340.0" x2="501.0" y2="258.0" stroke="#1f4e79" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="583.0" y1="340.0" x2="583.0" y2="258.0" stroke="#1f4e79" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="665.0" y1="340.0" x2="665.0" y2="258.0" stroke="#1f4e79" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="383.0" y="430.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">下联链路 128×8 = 1024 条（端口 1024，实用 1024）</text>
+<text x="383.0" y="452.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">每轨下联需求 128 口 ÷ 64 口/Leaf = 2 → 取 2 台 → 16 台 Leaf</text>
+<text x="383.0" y="474.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">分组只在下联：同轨 Leaf 只接本轨网卡；上联为全交叉，每 Leaf 接全部 16 台 Spine</text>
+</svg>

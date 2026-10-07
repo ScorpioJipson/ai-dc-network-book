@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 356" width="760" height="356" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="356" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">同一 1024 卡规模、同 32 台交换机的 5 年 TCO：差异来自哪几项</text>
+<text x="285.0" y="58.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1f4e79" text-anchor="middle" opacity="1.0">RoCEv2（市场参考口径）</text>
+<text x="520.0" y="58.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#9a5b12" text-anchor="middle" opacity="1.0">IB（同规模推算）</text>
+<rect x="30.0" y="72.0" width="700.0" height="36.0" rx="5" fill="#f7dcdc" stroke="#a02020" stroke-width="1.1" opacity="1.0"/>
+<text x="42.0" y="95.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">交换机整机</text>
+<text x="170.0" y="95.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">约 1 024 万元【市场参考】</text>
+<text x="400.0" y="95.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">约 3 200 ~ 3 800 万元【估算】</text>
+<text x="718.0" y="95.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="700" fill="#a02020" text-anchor="end" opacity="1.0">IB 高 2 200~2 800 万</text>
+<rect x="30.0" y="114.0" width="700.0" height="36.0" rx="5" fill="#f4f4f1" stroke="#4a4a46" stroke-width="1.1" opacity="1.0"/>
+<text x="42.0" y="137.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">光模块 / 线缆</text>
+<text x="170.0" y="137.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">4 096 只模块 + 2 048 条光缆</text>
+<text x="400.0" y="137.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">基本相当【估算】</text>
+<text x="718.0" y="137.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="700" fill="#4a4a46" text-anchor="end" opacity="1.0">不构成差异</text>
+<rect x="30.0" y="156.0" width="700.0" height="36.0" rx="5" fill="#f4f4f1" stroke="#4a4a46" stroke-width="1.1" opacity="1.0"/>
+<text x="42.0" y="179.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">网卡</text>
+<text x="170.0" y="179.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">ConnectX 系列，两协议通用</text>
+<text x="400.0" y="179.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">同</text>
+<text x="718.0" y="179.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="700" fill="#4a4a46" text-anchor="end" opacity="1.0">不构成差异</text>
+<rect x="30.0" y="198.0" width="700.0" height="36.0" rx="5" fill="#f7dcdc" stroke="#a02020" stroke-width="1.1" opacity="1.0"/>
+<text x="42.0" y="221.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">管理软件（3 年）</text>
+<text x="170.0" y="221.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">可自建，接近 0【实测】</text>
+<text x="400.0" y="221.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">UFM 类按端口授权，十万元级/年起【估算】</text>
+<text x="718.0" y="221.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="700" fill="#a02020" text-anchor="end" opacity="1.0">IB 高，且最易漏算</text>
+<rect x="30.0" y="240.0" width="700.0" height="36.0" rx="5" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.1" opacity="1.0"/>
+<text x="42.0" y="263.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">无损联调人力</text>
+<text x="170.0" y="263.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">一期 10 人天【实测】</text>
+<text x="400.0" y="263.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">低（信用流控免调）【估算】</text>
+<text x="718.0" y="263.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="700" fill="#9a5b12" text-anchor="end" opacity="1.0">RoCEv2 高</text>
+<rect x="30.0" y="288.0" width="700.0" height="58.0" rx="6" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.5" opacity="1.0"/>
+<text x="44.0" y="310.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="700" fill="#8a6a00" text-anchor="start" opacity="1.0">★ 这个算例真正要说明的不是“谁便宜”，而是：两条路的成本不在同一个科目里。</text>
+<text x="44.0" y="332.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.3" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">RoCEv2 的钱花在“人”（调优与运维），IB 的钱花在“设备与授权”。只比交换机单价＝只比了一个科目。</text>
+</svg>

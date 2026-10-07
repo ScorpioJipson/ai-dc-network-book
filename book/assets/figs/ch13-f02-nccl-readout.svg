@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 336" width="760" height="336" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="336" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">nccl-tests 输出怎么读：三个必须先看的字段</text>
+<rect x="40.0" y="50.0" width="410.0" height="236.0" rx="6" fill="#f5f5f2" stroke="#dcdcd6" stroke-width="1.2" opacity="1.0"/>
+<text x="56.0" y="72.0" font-family="Consolas, NSimSun, monospace" font-size="9.6" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">all_reduce_perf -b 8 -e 8G -f 2 -g 8</text>
+<text x="56.0" y="96.0" font-family="Consolas, NSimSun, monospace" font-size="8.6" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">       size     count   type   redop   time   algbw   busbw   #wrong</text>
+<text x="56.0" y="116.0" font-family="Consolas, NSimSun, monospace" font-size="8.6" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">       8 B         1   float    sum   6.10    1.31    2.46      0</text>
+<text x="56.0" y="136.0" font-family="Consolas, NSimSun, monospace" font-size="8.6" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">    1.0 MB    262144   float    sum  30.15   34.76   65.17      0</text>
+<text x="56.0" y="156.0" font-family="Consolas, NSimSun, monospace" font-size="8.6" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">  128.0 MB  33554432   float    sum 1482.4  90.35  169.4      0</text>
+<text x="56.0" y="176.0" font-family="Consolas, NSimSun, monospace" font-size="8.6" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">  1024 MB  268435456   float    sum 11204  95.62  179.3      0</text>
+<text x="56.0" y="216.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">… 逐级规模：2 / 4 / 8 / 16 / 32 / 96 台</text>
+<text x="56.0" y="236.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">… 消息范围：8 B ~ 8 GiB</text>
+<text x="56.0" y="264.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">★ 基准程序必须与生产训练同版本 NCCL/CUDA/driver</text>
+<text x="56.0" y="281.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">   （用系统自带旧 NCCL，busbw 会低约 18%，白排查半个班次）</text>
+<rect x="474.0" y="56.0" width="250.0" height="68.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="490.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1f4e79" text-anchor="start" opacity="1.0">① 看规模</text>
+<text x="490.0" y="88.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">必须 2/4/8/16/32/90 逐级上行，</text>
+<text x="490.0" y="100.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">不能只压满规模 —— 单点故障</text>
+<text x="490.0" y="112.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">要在小规模先暴露。</text>
+<rect x="474.0" y="138.0" width="250.0" height="68.0" rx="6" fill="#f7dcdc" stroke="#a02020" stroke-width="1.4" opacity="1.0"/>
+<text x="490.0" y="160.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">② 看正确性</text>
+<text x="490.0" y="170.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">#wrong = 0 才是通过。</text>
+<text x="490.0" y="182.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">非 0 意味着结果不可信，</text>
+<text x="490.0" y="194.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">带宽再高也没有意义。</text>
+<rect x="474.0" y="220.0" width="250.0" height="68.0" rx="6" fill="#dceee2" stroke="#2e6b45" stroke-width="1.4" opacity="1.0"/>
+<text x="490.0" y="242.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#2e6b45" text-anchor="start" opacity="1.0">③ 看带宽</text>
+<text x="490.0" y="252.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">busbw = algbw × 2(N−1)/N</text>
+<text x="490.0" y="264.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">衡量的是“网络的有效宽度”，</text>
+<text x="490.0" y="276.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">不是“数据传得多快”。</text>
+<text x="380.0" y="320.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.4" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">★ 三个字段缺一个，这次压测就不能作为验收依据。</text>
+</svg>

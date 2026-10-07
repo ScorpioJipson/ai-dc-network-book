@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="360" fill="#ffffff"/>
+<rect x="30.0" y="36.0" width="200.0" height="270.0" rx="8" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="130.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Type A（直通）</text>
+<rect x="48.0" y="76.0" width="14.0" height="4.0" rx="6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.4" opacity="1.0"/>
+<text x="42.0" y="96.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">Key</text>
+<circle cx="74.0" cy="108.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="186.0" cy="108.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60.0" y="111.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">1</text>
+<text x="200.0" y="111.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">1</text>
+<line x1="80.0" y1="108.0" x2="180.0" y2="108.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="74.0" cy="123.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="186.0" cy="123.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60.0" y="126.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">2</text>
+<text x="200.0" y="126.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">2</text>
+<line x1="80.0" y1="123.0" x2="180.0" y2="123.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="74.0" cy="138.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="186.0" cy="138.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60.0" y="141.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">3</text>
+<text x="200.0" y="141.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">3</text>
+<line x1="80.0" y1="138.0" x2="180.0" y2="138.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="74.0" cy="153.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="186.0" cy="153.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60.0" y="156.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">4</text>
+<text x="200.0" y="156.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">4</text>
+<line x1="80.0" y1="153.0" x2="180.0" y2="153.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="74.0" cy="168.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="186.0" cy="168.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60.0" y="171.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">5</text>
+<text x="200.0" y="171.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">5</text>
+<line x1="80.0" y1="168.0" x2="180.0" y2="168.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="74.0" cy="183.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="186.0" cy="183.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60.0" y="186.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">6</text>
+<text x="200.0" y="186.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">6</text>
+<line x1="80.0" y1="183.0" x2="180.0" y2="183.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="74.0" cy="198.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="186.0" cy="198.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60.0" y="201.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">7</text>
+<text x="200.0" y="201.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">7</text>
+<line x1="80.0" y1="198.0" x2="180.0" y2="198.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="74.0" cy="213.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="186.0" cy="213.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60.0" y="216.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">8</text>
+<text x="200.0" y="216.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">8</text>
+<line x1="80.0" y1="213.0" x2="180.0" y2="213.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="74.0" cy="228.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="186.0" cy="228.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60.0" y="231.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">9</text>
+<text x="200.0" y="231.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">9</text>
+<line x1="80.0" y1="228.0" x2="180.0" y2="228.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="74.0" cy="243.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="186.0" cy="243.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60.0" y="246.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">10</text>
+<text x="200.0" y="246.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">10</text>
+<line x1="80.0" y1="243.0" x2="180.0" y2="243.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="74.0" cy="258.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="186.0" cy="258.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60.0" y="261.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">11</text>
+<text x="200.0" y="261.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">11</text>
+<line x1="80.0" y1="258.0" x2="180.0" y2="258.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="74.0" cy="273.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="186.0" cy="273.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60.0" y="276.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">12</text>
+<text x="200.0" y="276.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">12</text>
+<line x1="80.0" y1="273.0" x2="180.0" y2="273.0" stroke="#7a7a76" stroke-width="0.9"/>
+<text x="130.0" y="296.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">两端键位同向</text>
+<rect x="280.0" y="36.0" width="200.0" height="270.0" rx="8" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="380.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Type B（全翻转）</text>
+<rect x="298.0" y="76.0" width="14.0" height="4.0" rx="6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.4" opacity="1.0"/>
+<text x="292.0" y="96.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">Key</text>
+<circle cx="324.0" cy="108.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="436.0" cy="108.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="310.0" y="111.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">1</text>
+<text x="450.0" y="111.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">12</text>
+<line x1="330.0" y1="108.0" x2="430.0" y2="273.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="324.0" cy="123.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="436.0" cy="123.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="310.0" y="126.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">2</text>
+<text x="450.0" y="126.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">11</text>
+<line x1="330.0" y1="123.0" x2="430.0" y2="258.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="324.0" cy="138.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="436.0" cy="138.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="310.0" y="141.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">3</text>
+<text x="450.0" y="141.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">10</text>
+<line x1="330.0" y1="138.0" x2="430.0" y2="243.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="324.0" cy="153.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="436.0" cy="153.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="310.0" y="156.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">4</text>
+<text x="450.0" y="156.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">9</text>
+<line x1="330.0" y1="153.0" x2="430.0" y2="228.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="324.0" cy="168.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="436.0" cy="168.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="310.0" y="171.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">5</text>
+<text x="450.0" y="171.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">8</text>
+<line x1="330.0" y1="168.0" x2="430.0" y2="213.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="324.0" cy="183.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="436.0" cy="183.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="310.0" y="186.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">6</text>
+<text x="450.0" y="186.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">7</text>
+<line x1="330.0" y1="183.0" x2="430.0" y2="198.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="324.0" cy="198.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="436.0" cy="198.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="310.0" y="201.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">7</text>
+<text x="450.0" y="201.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">6</text>
+<line x1="330.0" y1="198.0" x2="430.0" y2="183.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="324.0" cy="213.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="436.0" cy="213.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="310.0" y="216.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">8</text>
+<text x="450.0" y="216.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">5</text>
+<line x1="330.0" y1="213.0" x2="430.0" y2="168.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="324.0" cy="228.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="436.0" cy="228.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="310.0" y="231.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">9</text>
+<text x="450.0" y="231.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">4</text>
+<line x1="330.0" y1="228.0" x2="430.0" y2="153.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="324.0" cy="243.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="436.0" cy="243.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="310.0" y="246.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">10</text>
+<text x="450.0" y="246.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">3</text>
+<line x1="330.0" y1="243.0" x2="430.0" y2="138.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="324.0" cy="258.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="436.0" cy="258.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="310.0" y="261.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">11</text>
+<text x="450.0" y="261.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">2</text>
+<line x1="330.0" y1="258.0" x2="430.0" y2="123.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="324.0" cy="273.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="436.0" cy="273.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="310.0" y="276.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">12</text>
+<text x="450.0" y="276.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">1</text>
+<line x1="330.0" y1="273.0" x2="430.0" y2="108.0" stroke="#7a7a76" stroke-width="0.9"/>
+<text x="380.0" y="296.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">两端键位反向</text>
+<rect x="530.0" y="36.0" width="200.0" height="270.0" rx="8" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="630.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Type C（成对交叉）</text>
+<rect x="548.0" y="76.0" width="14.0" height="4.0" rx="6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.4" opacity="1.0"/>
+<text x="542.0" y="96.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">Key</text>
+<circle cx="574.0" cy="108.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="686.0" cy="108.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560.0" y="111.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">1</text>
+<text x="700.0" y="111.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">2</text>
+<line x1="580.0" y1="108.0" x2="680.0" y2="123.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="574.0" cy="123.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="686.0" cy="123.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560.0" y="126.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">2</text>
+<text x="700.0" y="126.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">1</text>
+<line x1="580.0" y1="123.0" x2="680.0" y2="108.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="574.0" cy="138.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="686.0" cy="138.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560.0" y="141.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">3</text>
+<text x="700.0" y="141.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">4</text>
+<line x1="580.0" y1="138.0" x2="680.0" y2="153.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="574.0" cy="153.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="686.0" cy="153.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560.0" y="156.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">4</text>
+<text x="700.0" y="156.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">3</text>
+<line x1="580.0" y1="153.0" x2="680.0" y2="138.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="574.0" cy="168.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="686.0" cy="168.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560.0" y="171.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">5</text>
+<text x="700.0" y="171.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">6</text>
+<line x1="580.0" y1="168.0" x2="680.0" y2="183.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="574.0" cy="183.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="686.0" cy="183.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560.0" y="186.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">6</text>
+<text x="700.0" y="186.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">5</text>
+<line x1="580.0" y1="183.0" x2="680.0" y2="168.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="574.0" cy="198.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="686.0" cy="198.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560.0" y="201.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">7</text>
+<text x="700.0" y="201.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">8</text>
+<line x1="580.0" y1="198.0" x2="680.0" y2="213.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="574.0" cy="213.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="686.0" cy="213.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560.0" y="216.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">8</text>
+<text x="700.0" y="216.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">7</text>
+<line x1="580.0" y1="213.0" x2="680.0" y2="198.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="574.0" cy="228.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="686.0" cy="228.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560.0" y="231.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">9</text>
+<text x="700.0" y="231.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">10</text>
+<line x1="580.0" y1="228.0" x2="680.0" y2="243.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="574.0" cy="243.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="686.0" cy="243.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560.0" y="246.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">10</text>
+<text x="700.0" y="246.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">9</text>
+<line x1="580.0" y1="243.0" x2="680.0" y2="228.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="574.0" cy="258.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="686.0" cy="258.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560.0" y="261.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">11</text>
+<text x="700.0" y="261.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">12</text>
+<line x1="580.0" y1="258.0" x2="680.0" y2="273.0" stroke="#7a7a76" stroke-width="0.9"/>
+<circle cx="574.0" cy="273.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<circle cx="686.0" cy="273.0" r="5.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560.0" y="276.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">12</text>
+<text x="700.0" y="276.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">11</text>
+<line x1="580.0" y1="273.0" x2="680.0" y2="258.0" stroke="#7a7a76" stroke-width="0.9"/>
+<text x="630.0" y="296.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">两端键位同向</text>
+<text x="380.0" y="336.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">★ 键位（Key）方向是最快的目视判据；极性错误的表现是「链路 up 但误码暴涨」。</text>
+</svg>

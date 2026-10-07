@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 344" width="760" height="344" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="344" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">技术判断分三档：留接口 / 写清替换条件 / 不付溢价</text>
+<rect x="34.0" y="50.0" width="208.0" height="176.0" rx="8" fill="#dceee2" stroke="#2e6b45" stroke-width="1.6" opacity="1.0"/>
+<text x="138.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#2e6b45" text-anchor="middle" opacity="1.0">终局方向</text>
+<line x1="54.0" y1="92.0" x2="222.0" y2="92.0" stroke="#2e6b45" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="52.0" y="116.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">· UEC（Ultra Ethernet）</text>
+<text x="52.0" y="142.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">· 开放 Scale-up（UALink 等）</text>
+<text x="52.0" y="168.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">· 光下沉（CPO 方向）</text>
+<text x="138.0" y="208.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.8" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">留接口，不押注：确认下一代平台能平滑升级</text>
+<rect x="270.0" y="50.0" width="208.0" height="176.0" rx="8" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6" opacity="1.0"/>
+<text x="374.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#1f4e79" text-anchor="middle" opacity="1.0">过渡方案</text>
+<line x1="290.0" y1="92.0" x2="458.0" y2="92.0" stroke="#1f4e79" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="288.0" y="116.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">· 轨道优化拓扑</text>
+<text x="288.0" y="142.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">· 当前 400G 两层 CLOS</text>
+<text x="374.0" y="208.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.8" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">可用，但写清替换触发条件：达到 X 台或出现 Y 产品时重评</text>
+<rect x="506.0" y="50.0" width="208.0" height="176.0" rx="8" fill="#f7dcdc" stroke="#a02020" stroke-width="1.6" opacity="1.0"/>
+<text x="610.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#a02020" text-anchor="middle" opacity="1.0">尚不确定</text>
+<line x1="526.0" y1="92.0" x2="694.0" y2="92.0" stroke="#a02020" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="524.0" y="116.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">· CPO 的当前成熟度</text>
+<text x="524.0" y="142.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">· 开放域的当前性能</text>
+<text x="610.0" y="208.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.8" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">不付溢价：别为不确定的未来能力在当下多花钱</text>
+<rect x="34.0" y="244.0" width="692.0" height="88.0" rx="6" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.3" opacity="1.0"/>
+<text x="48.0" y="268.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.6" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">★ 三档的边界是可移动的：今天的“尚不确定”，明天有了实测数据就会变成“终局”或“过渡”。</text>
+<text x="48.0" y="292.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">所以这张表要定期更新，更新的依据是实测数据，不是新闻稿 —— 与全书“没有实测数据不标记 done”的纪律一致。</text>
+<text x="48.0" y="316.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">规模越大，所有“演进型”判断的紧迫性越高：32 台的瓶颈在物理层，128–256 台才轮到拓扑与光器件形态。</text>
+</svg>

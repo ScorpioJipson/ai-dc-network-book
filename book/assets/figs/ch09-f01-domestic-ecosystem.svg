@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+<text x="380.0" y="26.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">国产算力网络三层生态：每一层的“可替换性”并不相同</text>
+<rect x="40.0" y="52.0" width="420.0" height="66.0" rx="8" fill="#f7dcdc" stroke="#a02020" stroke-width="1.4" opacity="1.0"/>
+<text x="66.0" y="80.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">加速器层</text>
+<text x="66.0" y="102.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">昇腾 / 寒武纪 / 海光 …</text>
+<line x1="460.0" y1="85.0" x2="510.0" y2="85.0" stroke="#a02020" stroke-width="1.3"/>
+<line x1="460.0" y1="85.0" x2="510.0" y2="85.0" stroke="#a02020" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="516.0" y="60.0" width="204.0" height="50.0" rx="6" fill="#ffffff" stroke="#a02020" stroke-width="1.2" stroke-dasharray="4 3" opacity="1.0"/>
+<text x="618.0" y="90.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">生态与算子库决定迁移成本</text>
+<rect x="40.0" y="128.0" width="420.0" height="66.0" rx="8" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.4" opacity="1.0"/>
+<text x="66.0" y="156.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="700" fill="#8a6a00" text-anchor="start" opacity="1.0">通信库层</text>
+<text x="66.0" y="178.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">HCCL / 各家私有集合通信库</text>
+<line x1="460.0" y1="161.0" x2="510.0" y2="161.0" stroke="#8a6a00" stroke-width="1.3"/>
+<line x1="460.0" y1="161.0" x2="510.0" y2="161.0" stroke="#8a6a00" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="516.0" y="136.0" width="204.0" height="50.0" rx="6" fill="#ffffff" stroke="#8a6a00" stroke-width="1.2" stroke-dasharray="4 3" opacity="1.0"/>
+<text x="618.0" y="166.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">接口兼容 ≠ 行为一致</text>
+<rect x="40.0" y="204.0" width="420.0" height="66.0" rx="8" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="66.0" y="232.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="700" fill="#1f4e79" text-anchor="start" opacity="1.0">网络层</text>
+<text x="66.0" y="254.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">CloudEngine 等国产交换机 + RoCEv2</text>
+<line x1="460.0" y1="237.0" x2="510.0" y2="237.0" stroke="#1f4e79" stroke-width="1.3"/>
+<line x1="460.0" y1="237.0" x2="510.0" y2="237.0" stroke="#1f4e79" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="516.0" y="212.0" width="204.0" height="50.0" rx="6" fill="#ffffff" stroke="#1f4e79" stroke-width="1.2" stroke-dasharray="4 3" opacity="1.0"/>
+<text x="618.0" y="242.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">协议是标准的，实现细节有差异</text>
+<rect x="40.0" y="280.0" width="420.0" height="66.0" rx="8" fill="#dceee2" stroke="#2e6b45" stroke-width="1.4" opacity="1.0"/>
+<text x="66.0" y="308.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="700" fill="#2e6b45" text-anchor="start" opacity="1.0">光模块 / 物理层</text>
+<text x="66.0" y="330.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">国产光模块、MPO、端面工艺</text>
+<line x1="460.0" y1="313.0" x2="510.0" y2="313.0" stroke="#2e6b45" stroke-width="1.3"/>
+<line x1="460.0" y1="313.0" x2="510.0" y2="313.0" stroke="#2e6b45" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="516.0" y="288.0" width="204.0" height="50.0" rx="6" fill="#ffffff" stroke="#2e6b45" stroke-width="1.2" stroke-dasharray="4 3" opacity="1.0"/>
+<text x="618.0" y="318.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">可自主可控度最高的一层</text>
+<text x="380.0" y="372.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">★ 混合组网（国产 + 进口）的四种问题：故障归属、性能基线、验收口径、备件链 —— 都要重新定义。</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 316" width="760" height="316" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="316" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">误报抑制的四种手段：把注意力留给真正的问题</text>
+<rect x="32.0" y="52.0" width="158.0" height="128.0" rx="8" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.5" opacity="1.0"/>
+<text x="111.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1f4e79" text-anchor="middle" opacity="1.0">持续性判定</text>
+<text x="111.0" y="112.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">连续 N 个周期超限才告警</text>
+<line x1="52.0" y1="152.0" x2="170.0" y2="152.0" stroke="#1f4e79" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="111.0" y="170.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">瞬时类指标</text>
+<text x="111.0" y="182.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">PFC、FEC 速率</text>
+<rect x="210.0" y="52.0" width="158.0" height="128.0" rx="8" fill="#dceee2" stroke="#2e6b45" stroke-width="1.5" opacity="1.0"/>
+<text x="289.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#2e6b45" text-anchor="middle" opacity="1.0">基线对比</text>
+<text x="289.0" y="112.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">与自身历史基线比较，而非绝对值</text>
+<line x1="230.0" y1="152.0" x2="348.0" y2="152.0" stroke="#2e6b45" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="289.0" y="170.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">流量、利用率</text>
+<text x="289.0" y="182.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">误码速率</text>
+<rect x="388.0" y="52.0" width="158.0" height="128.0" rx="8" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.5" opacity="1.0"/>
+<text x="467.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#9a5b12" text-anchor="middle" opacity="1.0">变化触发</text>
+<text x="467.0" y="112.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">监控“增量”而非“累计值”</text>
+<line x1="408.0" y1="152.0" x2="526.0" y2="152.0" stroke="#9a5b12" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="467.0" y="170.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">计数器类</text>
+<text x="467.0" y="182.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">pause、discards</text>
+<rect x="566.0" y="52.0" width="158.0" height="128.0" rx="8" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.5" opacity="1.0"/>
+<text x="645.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#5a3f86" text-anchor="middle" opacity="1.0">分级与聚合</text>
+<text x="645.0" y="112.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">分 P1/P2/P3，同类聚合</text>
+<line x1="586.0" y1="152.0" x2="704.0" y2="152.0" stroke="#5a3f86" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="645.0" y="176.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">大规模全局事件</text>
+<rect x="32.0" y="196.0" width="340.0" height="102.0" rx="6" fill="#f7dcdc" stroke="#a02020" stroke-width="1.4" opacity="1.0"/>
+<text x="46.0" y="218.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">反例（错误做法）</text>
+<text x="46.0" y="233.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">每个端口 down 都发一条 P1</text>
+<text x="46.0" y="248.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">⇒ 一次区域故障 = 上千条告警</text>
+<text x="46.0" y="263.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">⇒ 值班系统被淹没</text>
+<rect x="388.0" y="196.0" width="340.0" height="102.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="402.0" y="218.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="700" fill="#1f4e79" text-anchor="start" opacity="1.0">正例（正确做法）</text>
+<text x="402.0" y="233.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">端口 down 聚合为“设备 / 区域”级事件</text>
+<text x="402.0" y="248.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">⇒ 1 条 P1（含受影响范围）</text>
+<text x="402.0" y="263.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">⇒ + N 条 P3（明细）</text>
+</svg>

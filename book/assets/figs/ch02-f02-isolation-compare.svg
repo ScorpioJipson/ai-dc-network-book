@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+<line x1="110.0" y1="330.0" x2="702.0" y2="330.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="110.0" y1="330.0" x2="702.0" y2="330.0" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="110.0" y1="330.0" x2="110.0" y2="78.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="110.0" y1="330.0" x2="110.0" y2="78.0" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="374.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">隔离彻底度 →</text>
+<text x="90.0" y="84.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">成本 →</text>
+<rect x="92.0" y="266.0" width="156.0" height="62.0" rx="8" fill="#f4f4f1" stroke="#4a4a46" stroke-width="1.6" opacity="1.0"/>
+<text x="170.0" y="292.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">逻辑隔离</text>
+<text x="170.0" y="312.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">VLAN / TC 队列 / QoS</text>
+<rect x="282.0" y="196.0" width="156.0" height="62.0" rx="8" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.6" opacity="1.0"/>
+<text x="360.0" y="222.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">混合隔离</text>
+<text x="360.0" y="242.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">管理物理、业务逻辑</text>
+<rect x="482.0" y="86.0" width="156.0" height="62.0" rx="8" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.6" opacity="1.0"/>
+<text x="560.0" y="112.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">物理隔离</text>
+<text x="560.0" y="132.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">独立网卡 + 独立交换机</text>
+<line x1="560.0" y1="96.0" x2="560.0" y2="78.0" stroke="#a02020" stroke-width="1.6"/>
+<line x1="560.0" y1="96.0" x2="560.0" y2="78.0" stroke="#a02020" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="560.0" y="68.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#a02020" text-anchor="middle" opacity="1.0">★ 本案例选择</text>
+<text x="120.0" y="90.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">存储与算力抢同一批上联端口时，</text>
+<text x="120.0" y="108.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">PFC 反压会跨平面传播，</text>
+<text x="120.0" y="126.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">因此“物理隔离”是被逼出来的结论。</text>
+</svg>

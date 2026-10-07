@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="440" fill="#ffffff"/>
+<text x="380.0" y="26.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">存储平面：物理隔离 + A/B 双平面，与算力平面无任何连线</text>
+<rect x="60.0" y="48.0" width="300.0" height="56.0" rx="8" fill="#dceee2" stroke="#2e6b45" stroke-width="1.5" opacity="1.0"/>
+<text x="210.0" y="72.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">并行文件存储 300T（全闪）</text>
+<text x="210.0" y="91.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">3 节点（终态无需扩容）</text>
+<rect x="400.0" y="48.0" width="300.0" height="56.0" rx="8" fill="#dceee2" stroke="#2e6b45" stroke-width="1.5" opacity="1.0"/>
+<text x="550.0" y="72.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">冷存储 1PB（混闪 / EC 8+4）</text>
+<text x="550.0" y="91.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">5 节点；一期架构预留</text>
+<rect x="120.0" y="176.0" width="230.0" height="52.0" rx="6" fill="#dceee2" stroke="#2e6b45" stroke-width="1.4" opacity="1.0"/>
+<text x="235.0" y="202.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SWST01（A 平面）</text>
+<rect x="410.0" y="176.0" width="230.0" height="52.0" rx="6" fill="#dceee2" stroke="#2e6b45" stroke-width="1.4" opacity="1.0"/>
+<text x="525.0" y="202.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SWST02（B 平面）</text>
+<line x1="230.0" y1="176.0" x2="230.0" y2="104.0" stroke="#2e6b45" stroke-width="1.4"/>
+<line x1="520.0" y1="176.0" x2="520.0" y2="104.0" stroke="#2e6b45" stroke-width="1.4"/>
+<text x="380.0" y="158.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">400G 端口 1 分 4 → 4×100G（厂商官方支持，单台用量 ≤38/128 口）</text>
+<rect x="60.0" y="300.0" width="640.0" height="66.0" rx="8" fill="#f4f4f1" stroke="#1a1a1a" stroke-width="1.5" opacity="1.0"/>
+<text x="380.0" y="326.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">H100 服务器 ×128</text>
+<text x="380.0" y="348.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">存储口 A → SWST01  ｜  存储口 B → SWST02（2 × 100G，双平面冗余）</text>
+<line x1="200.0" y1="300.0" x2="245.0" y2="228.0" stroke="#2e6b45" stroke-width="1.4"/>
+<line x1="210.0" y1="300.0" x2="255.0" y2="228.0" stroke="#2e6b45" stroke-width="1.4"/>
+<line x1="560.0" y1="300.0" x2="525.0" y2="228.0" stroke="#2e6b45" stroke-width="1.4"/>
+<line x1="570.0" y1="300.0" x2="535.0" y2="228.0" stroke="#2e6b45" stroke-width="1.4"/>
+<text x="380.0" y="392.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">★ 稳态需求 2 GB/s/台 → 128 台 = 256 GB/s；一期 3 节点前端 300 GB/s，余量 17%</text>
+<text x="380.0" y="414.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">架构结论来自三次方案演进（存储共享 Spine → 独立 TC 队列 → 物理隔离）：存算抢端口会引发 PFC 跨平面传播。</text>
+</svg>

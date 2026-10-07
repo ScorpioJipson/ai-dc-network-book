@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="430" fill="#ffffff"/>
+<text x="380.0" y="26.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">排查决策树：两个维度、四类故障、四条路径</text>
+<text x="380.0" y="52.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">维度一：现象是否固定在某条链路 / 某台设备（固定 vs 随机）　维度二：结果是否正确（对 vs 不对）</text>
+<rect x="60.0" y="80.0" width="300.0" height="150.0" rx="8" fill="#f7dcdc" stroke="#a02020" stroke-width="1.5" opacity="1.0"/>
+<text x="210.0" y="106.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#a02020" text-anchor="middle" opacity="1.0">随机 + 只是慢 / 抖动</text>
+<text x="210.0" y="140.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">物理层：端面污染、隐性光衰</text>
+<text x="210.0" y="172.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">→ 端面显微镜 + 光功率复测 + 换线</text>
+<text x="210.0" y="205.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">随机性问题 → 永远查物理层</text>
+<rect x="400.0" y="80.0" width="300.0" height="150.0" rx="8" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.5" opacity="1.0"/>
+<text x="550.0" y="106.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#8a6a00" text-anchor="middle" opacity="1.0">固定 + 只是慢</text>
+<text x="550.0" y="140.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">配置层：PFC/ECN、路由、亲和性、通道数</text>
+<text x="550.0" y="172.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">→ 核对配置与绑定，不要先调参数</text>
+<text x="550.0" y="205.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">固定性问题 → 查配置与逻辑</text>
+<rect x="60.0" y="80.0" width="300.0" height="150.0" rx="8" fill="#f7dcdc" stroke="#a02020" stroke-width="1.5" opacity="1.0"/>
+<text x="210.0" y="106.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#a02020" text-anchor="middle" opacity="1.0">随机 + 结果不对</text>
+<text x="210.0" y="140.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">物理层误码：FEC 计数器</text>
+<text x="210.0" y="172.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">→ 查 rx_uncorrectable；查 DDM 只是第一步</text>
+<text x="210.0" y="205.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">随机性问题 → 永远查物理层</text>
+<rect x="400.0" y="80.0" width="300.0" height="150.0" rx="8" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.5" opacity="1.0"/>
+<text x="550.0" y="106.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1f4e79" text-anchor="middle" opacity="1.0">固定 + 结果不对</text>
+<text x="550.0" y="140.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">逻辑层：路由/绑定/拓扑接错</text>
+<text x="550.0" y="172.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">→ 查拓扑与主机的显式路由与源地址</text>
+<text x="550.0" y="205.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">固定性问题 → 查配置与逻辑</text>
+<text x="380.0" y="262.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">★ 一句话判据：随机性问题永远查物理层，不要调参数；固定性问题才去查配置与逻辑。</text>
+<line x1="230.0" y1="300.0" x2="230.0" y2="340.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="230.0" y1="300.0" x2="230.0" y2="340.0" stroke="#1a1a1a" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="100.0" y="344.0" width="560.0" height="60.0" rx="8" fill="#f4f4f1" stroke="#1a1a1a" stroke-width="1.4" opacity="1.0"/>
+<text x="380.0" y="368.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">全链路基线：链路 up ≠ 链路健康。</text>
+<text x="380.0" y="390.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">DDM 光功率正常也可能是隐性光衰 —— 必须结合 FEC 计数器（rx_uncorrectable = 0 是硬判据）。</text>
+</svg>

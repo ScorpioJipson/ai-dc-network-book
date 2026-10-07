@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 356" width="760" height="356" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="356" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">告警分级 P1 / P2 / P3：分级决定“谁来响应、多快响应”</text>
+<rect x="34.0" y="52.0" width="208.0" height="236.0" rx="8" fill="#f7dcdc" stroke="#a02020" stroke-width="1.6" opacity="1.0"/>
+<text x="138.0" y="80.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="17" font-weight="700" fill="#a02020" text-anchor="middle" opacity="1.0">P1</text>
+<text x="138.0" y="100.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">立即响应（7×24 呼叫）</text>
+<text x="48.0" y="126.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.8" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">判据：影响训练连续性或数据正确性</text>
+<text x="48.0" y="158.0" font-family="Consolas, NSimSun, monospace" font-size="8.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">· FEC rx_uncorrectable &gt; 0</text>
+<text x="48.0" y="190.0" font-family="Consolas, NSimSun, monospace" font-size="8.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">· rx_out_of_buffer &gt; 0（丢包）</text>
+<text x="48.0" y="222.0" font-family="Consolas, NSimSun, monospace" font-size="8.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">· 多条链路同时 down（区域故障）</text>
+<rect x="48.0" y="258.0" width="180.0" height="22.0" rx="4" fill="#ffffff" stroke="#a02020" stroke-width="1.1" opacity="1.0"/>
+<text x="138.0" y="273.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="700" fill="#a02020" text-anchor="middle" opacity="1.0">目标响应：≤ 15 分钟</text>
+<rect x="270.0" y="52.0" width="208.0" height="236.0" rx="8" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.6" opacity="1.0"/>
+<text x="374.0" y="80.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="17" font-weight="700" fill="#9a5b12" text-anchor="middle" opacity="1.0">P2</text>
+<text x="374.0" y="100.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">值班处理（工作时间优先）</text>
+<text x="284.0" y="126.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.8" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">判据：影响性能但不中断训练</text>
+<text x="284.0" y="158.0" font-family="Consolas, NSimSun, monospace" font-size="8.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">· 单条链路 down（ECMP 可绕行）</text>
+<text x="284.0" y="190.0" font-family="Consolas, NSimSun, monospace" font-size="8.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">· 光功率偏离基线</text>
+<text x="284.0" y="222.0" font-family="Consolas, NSimSun, monospace" font-size="8.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">· 单卡 busbw 下降</text>
+<rect x="284.0" y="258.0" width="180.0" height="22.0" rx="4" fill="#ffffff" stroke="#9a5b12" stroke-width="1.1" opacity="1.0"/>
+<text x="374.0" y="273.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="700" fill="#9a5b12" text-anchor="middle" opacity="1.0">目标响应：≤ 2 小时</text>
+<rect x="506.0" y="52.0" width="208.0" height="236.0" rx="8" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.6" opacity="1.0"/>
+<text x="610.0" y="80.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="17" font-weight="700" fill="#5c5c58" text-anchor="middle" opacity="1.0">P3</text>
+<text x="610.0" y="100.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">记录与趋势跟踪</text>
+<text x="520.0" y="126.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.8" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">判据：无即时影响，但需关注趋势</text>
+<text x="520.0" y="158.0" font-family="Consolas, NSimSun, monospace" font-size="8.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">· PFC pause 偶发波动</text>
+<text x="520.0" y="190.0" font-family="Consolas, NSimSun, monospace" font-size="8.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">· FEC 可纠错比特缓慢增长</text>
+<text x="520.0" y="222.0" font-family="Consolas, NSimSun, monospace" font-size="8.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">· 模块温度偏高</text>
+<rect x="520.0" y="258.0" width="180.0" height="22.0" rx="4" fill="#ffffff" stroke="#5c5c58" stroke-width="1.1" opacity="1.0"/>
+<text x="610.0" y="273.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="700" fill="#5c5c58" text-anchor="middle" opacity="1.0">响应：值班巡检时处理</text>
+<text x="380.0" y="312.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">★ 告警疲劳的机制：若 90% 的告警都是 P3 却和 P1 一样弹窗，值班员会开始忽略 —— 误报的真正代价是毁掉真告警的响应率。</text>
+<text x="380.0" y="336.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">大规模事件的聚合：一次区域故障应聚合为 1 条 P1（含范围）+ N 条 P3（明细），而不是上千条 P1。</text>
+</svg>

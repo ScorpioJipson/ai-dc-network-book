@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="380" fill="#ffffff"/>
+<text x="380.0" y="26.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Headroom 的由来：从发出反压到反压生效，链路上仍有在途报文</text>
+<rect x="60.0" y="118.0" width="130.0" height="62.0" rx="6" fill="#f7dcdc" stroke="#a02020" stroke-width="1.4" opacity="1.0"/>
+<text x="125.0" y="141.2" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">端口 A</text>
+<text x="125.0" y="156.8" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">（拥塞）</text>
+<rect x="570.0" y="118.0" width="130.0" height="62.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="635.0" y="149.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">发送端 B</text>
+<line x1="190.0" y1="138.0" x2="570.0" y2="138.0" stroke="#1f4e79" stroke-width="2.2"/>
+<line x1="190.0" y1="138.0" x2="570.0" y2="138.0" stroke="#1f4e79" stroke-width="2.2" marker-end="url(#ah-s)"/>
+<text x="380.0" y="130.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">数据流（线速灌入）</text>
+<line x1="570.0" y1="172.0" x2="190.0" y2="172.0" stroke="#9a5b12" stroke-width="1.8" stroke-dasharray="6 4"/>
+<line x1="570.0" y1="172.0" x2="190.0" y2="172.0" stroke="#9a5b12" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#ah)"/>
+<text x="380.0" y="190.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#9a5b12" text-anchor="middle" opacity="1.0">PFC XOFF 反压（需经“反压响应时间”才到达 A）</text>
+<rect x="200.0" y="218.0" width="360.0" height="36.0" rx="6" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.4" opacity="1.0"/>
+<text x="380.0" y="242.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">在途报文 = 链路速率 × 反压响应时间</text>
+<text x="380.0" y="288.0" font-family="Consolas, NSimSun, monospace" font-size="11.2" font-weight="normal" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Headroom ≥ 400×10⁹ × 3×10⁻⁶ ÷ 8 + MTU + 余量 ≈ 150 KB + 10 KB ≈ 160 KB</text>
+<text x="380.0" y="322.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">★ 余量不足 → 反压到达前缓冲已满 → 丢包；余量过大 → 挤占正常拥塞吸收空间。</text>
+<text x="380.0" y="348.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">本案例算力与存储物理隔离，每个端口只需一个无损优先级，headroom 压力减半。</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" width="760" height="560" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+<rect x="40.0" y="30.0" width="680.0" height="84.0" rx="8" fill="#f7dcdc" stroke="#a02020" stroke-width="1.3" opacity="1.0"/>
+<text x="66.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">① 合规</text>
+<text x="120.0" y="60.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">项目是否要求信创 / 全国产？</text>
+<text x="120.0" y="88.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">→ 是 → 只能走国产 RoCE 路线（第 9 章）</text>
+<line x1="380.0" y1="114.0" x2="380.0" y2="124.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="380.0" y1="114.0" x2="380.0" y2="124.0" stroke="#1a1a1a" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="40.0" y="124.0" width="680.0" height="84.0" rx="8" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.3" opacity="1.0"/>
+<text x="66.0" y="154.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#8a6a00" text-anchor="start" opacity="1.0">② 规模</text>
+<text x="120.0" y="154.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">终态规模是否超出两层 CLOS 上限？</text>
+<text x="120.0" y="182.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">→ 是 → 需三层或更大端口交换机（第 3 章）</text>
+<line x1="380.0" y1="208.0" x2="380.0" y2="218.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="380.0" y1="208.0" x2="380.0" y2="218.0" stroke="#1a1a1a" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="40.0" y="218.0" width="680.0" height="84.0" rx="8" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="66.0" y="248.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#1f4e79" text-anchor="start" opacity="1.0">③ 团队</text>
+<text x="120.0" y="248.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">运维团队是否有 IB 经验 / 能否接受封闭生态？</text>
+<text x="120.0" y="276.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">→ 无 → 优先 RoCE；有 → IB 可省心</text>
+<line x1="380.0" y1="302.0" x2="380.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="380.0" y1="302.0" x2="380.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="40.0" y="312.0" width="680.0" height="84.0" rx="8" fill="#dceee2" stroke="#2e6b45" stroke-width="1.3" opacity="1.0"/>
+<text x="66.0" y="342.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#2e6b45" text-anchor="start" opacity="1.0">④ 成本</text>
+<text x="120.0" y="342.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">5 年 CAPEX+OPEX 谁更低？</text>
+<text x="120.0" y="370.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">→ IB 硬件贵、人力少；RoCE 相反</text>
+<line x1="380.0" y1="396.0" x2="380.0" y2="406.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="380.0" y1="396.0" x2="380.0" y2="406.0" stroke="#1a1a1a" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="40.0" y="406.0" width="680.0" height="84.0" rx="8" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.3" opacity="1.0"/>
+<text x="66.0" y="436.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#5a3f86" text-anchor="start" opacity="1.0">⑤ 性能</text>
+<text x="120.0" y="436.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">性能是否都是线速（是否构成差异）？</text>
+<text x="120.0" y="464.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">→ 两者都能跑满线速 → 不构成决定性差异</text>
+<line x1="380.0" y1="490.0" x2="380.0" y2="500.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="380.0" y1="490.0" x2="380.0" y2="500.0" stroke="#1a1a1a" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="380.0" y="524.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">★ 决策顺序不可颠倒：先被合规一票否决，再谈规模与成本；性能排在最后，因为双方都能达标。</text>
+<text x="380.0" y="546.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">（对应《选型决策》第 8 章；IB 与 RoCEv2 都能跑满线速，差别在“谁承担复杂度”。）</text>
+</svg>

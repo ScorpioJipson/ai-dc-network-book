@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="380" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">QoS 四层映射：每一步都可能出错，而现象都一样 —— “没生效”</text>
+<rect x="34.0" y="52.0" width="130.0" height="52.0" rx="6" fill="#f4f4f1" stroke="#4a4a46" stroke-width="1.4" opacity="1.0"/>
+<text x="99.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">应用 / 协议栈</text>
+<line x1="166.0" y1="78.0" x2="178.0" y2="78.0" stroke="#4a4a46" stroke-width="1.5"/>
+<line x1="166.0" y1="78.0" x2="178.0" y2="78.0" stroke="#4a4a46" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="180.0" y="52.0" width="130.0" height="52.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="245.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">DSCP（IP 头 6 bit）</text>
+<line x1="312.0" y1="78.0" x2="324.0" y2="78.0" stroke="#4a4a46" stroke-width="1.5"/>
+<line x1="312.0" y1="78.0" x2="324.0" y2="78.0" stroke="#4a4a46" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="326.0" y="52.0" width="130.0" height="52.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="391.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">802.1p（VLAN 头 3 bit）</text>
+<line x1="458.0" y1="78.0" x2="470.0" y2="78.0" stroke="#4a4a46" stroke-width="1.5"/>
+<line x1="458.0" y1="78.0" x2="470.0" y2="78.0" stroke="#4a4a46" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="472.0" y="52.0" width="130.0" height="52.0" rx="6" fill="#dceee2" stroke="#2e6b45" stroke-width="1.4" opacity="1.0"/>
+<text x="537.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">TC 队列（通常 8 个）</text>
+<line x1="604.0" y1="78.0" x2="616.0" y2="78.0" stroke="#4a4a46" stroke-width="1.5"/>
+<line x1="604.0" y1="78.0" x2="616.0" y2="78.0" stroke="#4a4a46" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="618.0" y="52.0" width="130.0" height="52.0" rx="6" fill="#f7dcdc" stroke="#a02020" stroke-width="1.4" opacity="1.0"/>
+<text x="683.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">是否绑定 PFC / ECN</text>
+<text x="184.0" y="120.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">映射</text>
+<text x="330.0" y="120.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">映射</text>
+<text x="476.0" y="120.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">映射</text>
+<text x="622.0" y="120.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">映射</text>
+<text x="380.0" y="152.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">本案例的优先级规划（算力与存储物理隔离之后）</text>
+<rect x="34.0" y="168.0" width="692.0" height="28.0" rx="4" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.1" opacity="1.0"/>
+<text x="46.0" y="187.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">算力平面</text>
+<text x="140.0" y="187.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">需要</text>
+<text x="310.0" y="187.0" font-family="Consolas, NSimSun, monospace" font-size="10.2" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">1 个专用无损队列</text>
+<text x="540.0" y="187.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">RoCEv2 算力流量</text>
+<rect x="34.0" y="202.0" width="692.0" height="28.0" rx="4" fill="#dceee2" stroke="#2e6b45" stroke-width="1.1" opacity="1.0"/>
+<text x="46.0" y="221.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">存储平面</text>
+<text x="140.0" y="221.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">需要（独立物理网）</text>
+<text x="310.0" y="221.0" font-family="Consolas, NSimSun, monospace" font-size="10.2" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">各自网内 1 个无损队列</text>
+<text x="540.0" y="221.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">与算力网无交集</text>
+<rect x="34.0" y="236.0" width="692.0" height="28.0" rx="4" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.1" opacity="1.0"/>
+<text x="46.0" y="255.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">业务网</text>
+<text x="140.0" y="255.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">不需要</text>
+<text x="310.0" y="255.0" font-family="Consolas, NSimSun, monospace" font-size="10.2" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">独立普通队列</text>
+<text x="540.0" y="255.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">25G，可容忍抖动</text>
+<rect x="34.0" y="270.0" width="692.0" height="28.0" rx="4" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.1" opacity="1.0"/>
+<text x="46.0" y="289.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">带外管理</text>
+<text x="140.0" y="289.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">不需要</text>
+<text x="310.0" y="289.0" font-family="Consolas, NSimSun, monospace" font-size="10.2" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">最低优先级</text>
+<text x="540.0" y="289.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">流量极小；防它抢资源</text>
+<rect x="34.0" y="312.0" width="692.0" height="56.0" rx="6" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.4" opacity="1.0"/>
+<text x="48.0" y="334.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.6" font-weight="700" fill="#8a6a00" text-anchor="start" opacity="1.0">现场最常见的漏项：TC → 无损队列的绑定，是否在每一台交换机上都配了？</text>
+<text x="48.0" y="356.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">漏配一台，那台就成了丢包的源头 —— 检查方法是逐台导出配置核对绑定项，而不是抽看模板。</text>
+</svg>

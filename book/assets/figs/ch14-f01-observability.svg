@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+<text x="380.0" y="26.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">端到端可观测：三域采集、统一时间轴、一条数据流</text>
+<rect x="60.0" y="52.0" width="160.0" height="96.0" rx="8" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="140.0" y="76.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#5a3f86" text-anchor="middle" opacity="1.0">主机域</text>
+<text x="140.0" y="96.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">GPU / NIC</text>
+<text x="140.0" y="122.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">DCGM、ethtool、计数器</text>
+<text x="140.0" y="138.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0"></text>
+<line x1="140.0" y1="148.0" x2="140.0" y2="196.0" stroke="#5a3f86" stroke-width="1.4"/>
+<line x1="140.0" y1="148.0" x2="140.0" y2="196.0" stroke="#5a3f86" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="300.0" y="52.0" width="160.0" height="96.0" rx="8" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="380.0" y="76.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1f4e79" text-anchor="middle" opacity="1.0">网络域</text>
+<text x="380.0" y="96.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">交换机</text>
+<text x="380.0" y="122.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">gNMI / Streaming Telemetry</text>
+<text x="380.0" y="138.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0"></text>
+<line x1="380.0" y1="148.0" x2="380.0" y2="196.0" stroke="#1f4e79" stroke-width="1.4"/>
+<line x1="380.0" y1="148.0" x2="380.0" y2="196.0" stroke="#1f4e79" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="540.0" y="52.0" width="160.0" height="96.0" rx="8" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.4" opacity="1.0"/>
+<text x="620.0" y="76.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#8a6a00" text-anchor="middle" opacity="1.0">业务域</text>
+<text x="620.0" y="96.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">训练任务</text>
+<text x="620.0" y="122.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">NCCL 日志、MFU、阶段耗时</text>
+<text x="620.0" y="138.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0"></text>
+<line x1="620.0" y1="148.0" x2="620.0" y2="196.0" stroke="#8a6a00" stroke-width="1.4"/>
+<line x1="620.0" y1="148.0" x2="620.0" y2="196.0" stroke="#8a6a00" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="60.0" y="200.0" width="640.0" height="46.0" rx="8" fill="#f4f4f1" stroke="#1a1a1a" stroke-width="1.5" opacity="1.0"/>
+<text x="380.0" y="222.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">采集与汇聚（统一时间戳，含 PTP 对齐）</text>
+<text x="380.0" y="239.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">低频用 SNMP，高频用 gNMI；先问“异常时做什么动作”，答不上来的计数器不采</text>
+<line x1="380.0" y1="246.0" x2="380.0" y2="276.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="380.0" y1="246.0" x2="380.0" y2="276.0" stroke="#1a1a1a" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="60.0" y="280.0" width="300.0" height="96.0" rx="8" fill="#dceee2" stroke="#2e6b45" stroke-width="1.4" opacity="1.0"/>
+<text x="210.0" y="304.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">指标基线表（五列）</text>
+<text x="210.0" y="326.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">指标名 / 采集方式 / 正常区间</text>
+<text x="210.0" y="344.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">告警阈值 / 责任人</text>
+<text x="210.0" y="366.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#a02020" text-anchor="middle" opacity="1.0">没有责任人的指标 = 没有指标</text>
+<rect x="400.0" y="280.0" width="300.0" height="96.0" rx="8" fill="#f7dcdc" stroke="#a02020" stroke-width="1.4" opacity="1.0"/>
+<text x="550.0" y="304.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#a02020" text-anchor="middle" opacity="1.0">告警分级与误报抑制</text>
+<text x="550.0" y="326.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">持续性判定 / 基线对比</text>
+<text x="550.0" y="344.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">变化触发 / 分级聚合</text>
+<text x="550.0" y="366.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">PFC pause 偶发 ≠ 0 正常，持续增长才告警</text>
+</svg>

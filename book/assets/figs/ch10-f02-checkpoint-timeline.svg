@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 312" width="760" height="312" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="312" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Checkpoint 的三种打法：同样一次写，训练停多久</text>
+<line x1="196.0" y1="250.0" x2="726.0" y2="250.0" stroke="#4a4a46" stroke-width="1.3"/>
+<text x="196.0" y="268.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">时间 →</text>
+<text x="186.0" y="83.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="700" fill="#1a1a1a" text-anchor="end" opacity="1.0">A 阻塞式同步写</text>
+<rect x="196.0" y="62.0" width="172.5" height="32.0" rx="4" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.3" opacity="1.0"/>
+<text x="282.2" y="83.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">计算</text>
+<rect x="368.5" y="62.0" width="149.5" height="32.0" rx="4" fill="#f7dcdc" stroke="#a02020" stroke-width="1.3" opacity="1.0"/>
+<text x="443.2" y="83.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">写 20 s</text>
+<rect x="518.0" y="62.0" width="207.0" height="32.0" rx="4" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.3" opacity="1.0"/>
+<text x="621.5" y="83.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">计算</text>
+<text x="196.0" y="108.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">全量空转，损失可观测</text>
+<text x="186.0" y="149.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="700" fill="#1a1a1a" text-anchor="end" opacity="1.0">B 异步 Checkpoint</text>
+<rect x="196.0" y="128.0" width="172.5" height="32.0" rx="4" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.3" opacity="1.0"/>
+<text x="282.2" y="149.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">计算</text>
+<rect x="368.5" y="128.0" width="52.9" height="32.0" rx="4" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.3" opacity="1.0"/>
+<text x="394.9" y="149.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">短停</text>
+<rect x="421.4" y="128.0" width="303.6" height="32.0" rx="4" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.3" opacity="1.0"/>
+<text x="573.2" y="149.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">计算（写入后台进行）</text>
+<text x="196.0" y="174.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">停顿极短，但写入被拉长到更长时间窗</text>
+<text x="186.0" y="215.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="700" fill="#1a1a1a" text-anchor="end" opacity="1.0">C 分级落盘（本案例采用）</text>
+<rect x="196.0" y="194.0" width="172.5" height="32.0" rx="4" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.3" opacity="1.0"/>
+<text x="282.2" y="215.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">计算</text>
+<rect x="368.5" y="194.0" width="39.1" height="32.0" rx="4" fill="#dceee2" stroke="#2e6b45" stroke-width="1.3" opacity="1.0"/>
+<text x="388.0" y="215.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">≈0</text>
+<rect x="407.6" y="194.0" width="317.4" height="32.0" rx="4" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.3" opacity="1.0"/>
+<text x="566.3" y="215.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">计算</text>
+<text x="196.0" y="240.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">先落本地 NVMe，再后台搬移；后台窗口 3 ~ 5 分钟【设计】</text>
+<text x="380.0" y="296.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.4" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">★ 分级方案的价值不是“存储更快”，而是把同步问题改成了异步问题 —— 把 20 秒的瞬时风暴摊进后台窗口。</text>
+</svg>

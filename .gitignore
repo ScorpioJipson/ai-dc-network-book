@@ -1,0 +1,22 @@
+# ── 工作区元数据（作者本地写作记忆，不公开）
+.workbuddy/
+
+# ── 作者工作文件（写作期的「准绳」，不是成书内容）
+book/00-写作规范.md
+book/01-贯穿案例参数卡.md
+book/02-数据锚点索引.md
+book/03-目录定稿.md
+
+# ── 构建产物：由 GitHub Actions 现场生成，不入库
+book/build/
+
+# ── 作者工具脚本：只保留站点构建器，其余为一次性改稿脚本
+book/tools/*
+!book/tools/build_site.py
+
+# ── 系统 / 编辑器
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+desktop.ini

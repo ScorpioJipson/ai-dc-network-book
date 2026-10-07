@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="320" fill="#ffffff"/>
+<rect x="30.0" y="40.0" width="200.0" height="240.0" rx="8" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="130.0" y="66.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="15" font-weight="700" fill="#4a4a46" text-anchor="middle" opacity="1.0">PC</text>
+<text x="130.0" y="86.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">平面微凸</text>
+<rect x="85.0" y="110.0" width="90.0" height="62.0" rx="4" fill="#f4f4f1" stroke="#4a4a46" stroke-width="1.4" opacity="1.0"/>
+<circle cx="130.0" cy="141.0" r="15.0" fill="#ffffff" stroke="#4a4a46" stroke-width="1.6"/>
+<text x="84.0" y="106.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">端面</text>
+<line x1="85.0" y1="110.0" x2="175.0" y2="110.0" stroke="#4a4a46" stroke-width="2.6"/>
+<line x1="104.0" y1="141.0" x2="124.0" y2="141.0" stroke="#a02020" stroke-width="1.4"/>
+<line x1="104.0" y1="141.0" x2="124.0" y2="141.0" stroke="#a02020" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<text x="130.0" y="196.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">回波损耗 ≥ 35 dB</text>
+<text x="130.0" y="216.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">常见颜色：米 / 灰</text>
+<text x="130.0" y="240.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">可与同族端面直连</text>
+<rect x="280.0" y="40.0" width="200.0" height="240.0" rx="8" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="380.0" y="66.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="15" font-weight="700" fill="#1f4e79" text-anchor="middle" opacity="1.0">UPC</text>
+<text x="380.0" y="86.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">平面（精抛）</text>
+<rect x="335.0" y="110.0" width="90.0" height="62.0" rx="4" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<circle cx="380.0" cy="141.0" r="15.0" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="334.0" y="106.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">端面</text>
+<line x1="335.0" y1="110.0" x2="425.0" y2="110.0" stroke="#1f4e79" stroke-width="2.6"/>
+<line x1="354.0" y1="141.0" x2="374.0" y2="141.0" stroke="#a02020" stroke-width="1.4"/>
+<line x1="354.0" y1="141.0" x2="374.0" y2="141.0" stroke="#a02020" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<text x="380.0" y="196.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">回波损耗 ≥ 50 dB</text>
+<text x="380.0" y="216.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">常见颜色：蓝</text>
+<text x="380.0" y="240.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">可与同族端面直连</text>
+<rect x="530.0" y="40.0" width="200.0" height="240.0" rx="8" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.1" opacity="1.0"/>
+<text x="630.0" y="66.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="15" font-weight="700" fill="#2e6b45" text-anchor="middle" opacity="1.0">APC</text>
+<text x="630.0" y="86.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">8° 斜面</text>
+<rect x="585.0" y="110.0" width="90.0" height="62.0" rx="4" fill="#dceee2" stroke="#2e6b45" stroke-width="1.4" opacity="1.0"/>
+<circle cx="630.0" cy="141.0" r="15.0" fill="#ffffff" stroke="#2e6b45" stroke-width="1.6"/>
+<text x="584.0" y="106.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">端面</text>
+<line x1="607.0" y1="110.0" x2="653.0" y2="172.0" stroke="#2e6b45" stroke-width="2.6"/>
+<text x="636.0" y="100.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#a02020" text-anchor="middle" opacity="1.0">8°</text>
+<line x1="604.0" y1="141.0" x2="624.0" y2="141.0" stroke="#a02020" stroke-width="1.4"/>
+<line x1="604.0" y1="141.0" x2="624.0" y2="141.0" stroke="#a02020" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<line x1="624.0" y1="152.0" x2="596.0" y2="158.0" stroke="#a02020" stroke-width="1.4"/>
+<line x1="624.0" y1="152.0" x2="596.0" y2="158.0" stroke="#a02020" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<text x="630.0" y="196.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">回波损耗 ≥ 60 dB</text>
+<text x="630.0" y="216.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">常见颜色：绿</text>
+<text x="630.0" y="240.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#a02020" text-anchor="middle" opacity="1.0">回波最低，但
+不可与 UPC 直连</text>
+<text x="380.0" y="302.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">★ 现场口诀：蓝对蓝、绿对绿，蓝绿不混。APC 与 UPC 直连会在斜面产生点接触，插损骤增。</text>
+</svg>

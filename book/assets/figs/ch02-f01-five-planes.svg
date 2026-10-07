@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" width="760" height="540" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="540" fill="#ffffff"/>
+<text x="380.0" y="22.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">五平面按「失效域 + 流量特征」切分，每平面独立设备、独立网段</text>
+<text x="92.0" y="46.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="700" fill="#1f4e79" text-anchor="middle" opacity="1.0">① 算力平面</text>
+<rect x="32.0" y="60.0" width="120.0" height="44.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="92.0" y="87.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Spine ×16</text>
+<rect x="32.0" y="286.0" width="120.0" height="44.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="92.0" y="313.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Leaf  ×16</text>
+<line x1="92.0" y1="286.0" x2="92.0" y2="108.0" stroke="#1f4e79" stroke-width="1.4"/>
+<line x1="92.0" y1="286.0" x2="92.0" y2="108.0" stroke="#1f4e79" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<text x="234.0" y="46.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="700" fill="#9a5b12" text-anchor="middle" opacity="1.0">② 带外管理</text>
+<rect x="174.0" y="60.0" width="120.0" height="44.0" rx="6" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.3" opacity="1.0"/>
+<text x="234.0" y="87.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">带外核心</text>
+<rect x="174.0" y="286.0" width="120.0" height="44.0" rx="6" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.3" opacity="1.0"/>
+<text x="234.0" y="313.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">接入 ×5</text>
+<line x1="234.0" y1="286.0" x2="234.0" y2="108.0" stroke="#9a5b12" stroke-width="1.4"/>
+<line x1="234.0" y1="286.0" x2="234.0" y2="108.0" stroke="#9a5b12" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<text x="376.0" y="46.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="700" fill="#5c5c58" text-anchor="middle" opacity="1.0">③ 带内节点管理</text>
+<rect x="316.0" y="60.0" width="120.0" height="44.0" rx="6" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.3" opacity="1.0"/>
+<text x="376.0" y="87.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">控制面网关</text>
+<rect x="316.0" y="286.0" width="120.0" height="44.0" rx="6" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.3" opacity="1.0"/>
+<text x="376.0" y="313.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">管理接入</text>
+<line x1="376.0" y1="286.0" x2="376.0" y2="108.0" stroke="#5c5c58" stroke-width="1.4"/>
+<line x1="376.0" y1="286.0" x2="376.0" y2="108.0" stroke="#5c5c58" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<text x="518.0" y="46.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="700" fill="#8a6a00" text-anchor="middle" opacity="1.0">④ 业务网</text>
+<rect x="458.0" y="60.0" width="120.0" height="44.0" rx="6" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.3" opacity="1.0"/>
+<text x="518.0" y="87.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">业务核心</text>
+<rect x="458.0" y="286.0" width="120.0" height="44.0" rx="6" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.3" opacity="1.0"/>
+<text x="518.0" y="313.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">接入 ×2</text>
+<line x1="518.0" y1="286.0" x2="518.0" y2="108.0" stroke="#8a6a00" stroke-width="1.4"/>
+<line x1="518.0" y1="286.0" x2="518.0" y2="108.0" stroke="#8a6a00" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<text x="660.0" y="46.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="700" fill="#2e6b45" text-anchor="middle" opacity="1.0">⑤ 存储私网</text>
+<rect x="600.0" y="60.0" width="120.0" height="44.0" rx="6" fill="#dceee2" stroke="#2e6b45" stroke-width="1.3" opacity="1.0"/>
+<text x="660.0" y="87.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">SWST01/02</text>
+<rect x="600.0" y="286.0" width="120.0" height="44.0" rx="6" fill="#dceee2" stroke="#2e6b45" stroke-width="1.3" opacity="1.0"/>
+<text x="660.0" y="313.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">存储节点</text>
+<line x1="660.0" y1="286.0" x2="660.0" y2="108.0" stroke="#2e6b45" stroke-width="1.4"/>
+<line x1="660.0" y1="286.0" x2="660.0" y2="108.0" stroke="#2e6b45" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="32.0" y="424.0" width="696.0" height="62.0" rx="8" fill="#f4f4f1" stroke="#1a1a1a" stroke-width="1.6" opacity="1.0"/>
+<text x="380.0" y="450.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">H100 服务器 ×128（每节点 8U）</text>
+<text x="380.0" y="472.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">8×400G 算力 ｜ 2×100G 存储 ｜ 2×25G 业务 ｜ 1×BMC</text>
+<line x1="92.0" y1="424.0" x2="92.0" y2="330.0" stroke="#1f4e79" stroke-width="1.3"/>
+<line x1="234.0" y1="424.0" x2="234.0" y2="330.0" stroke="#9a5b12" stroke-width="1.3"/>
+<line x1="376.0" y1="424.0" x2="376.0" y2="330.0" stroke="#5c5c58" stroke-width="1.3"/>
+<line x1="518.0" y1="424.0" x2="518.0" y2="330.0" stroke="#8a6a00" stroke-width="1.3"/>
+<line x1="660.0" y1="424.0" x2="660.0" y2="330.0" stroke="#2e6b45" stroke-width="1.3"/>
+<text x="660.0" y="360.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#a02020" text-anchor="middle" opacity="1.0">✕ 与算力 Leaf</text>
+<text x="660.0" y="376.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#a02020" text-anchor="middle" opacity="1.0">  无任何物理连接</text>
+<text x="380.0" y="510.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">上行箭头方向 = 该平面的流量上行方向；五平面之间默认不共享设备与端口</text>
+</svg>

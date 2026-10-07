@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="380" fill="#ffffff"/>
+<text x="380.0" y="26.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">一期（32 台）投资结构：计算网 + 存储网 = 92%</text>
+<text x="88.0" y="78.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="end" opacity="1.0">计算网</text>
+<rect x="100.0" y="60.0" width="414.1" height="30.0" rx="4" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.3" opacity="1.0"/>
+<text x="522.1" y="80.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">64.7%  ·  766.3 万</text>
+<text x="88.0" y="120.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="end" opacity="1.0">存储网</text>
+<rect x="100.0" y="102.0" width="172.8" height="30.0" rx="4" fill="#dceee2" stroke="#2e6b45" stroke-width="1.3" opacity="1.0"/>
+<text x="280.8" y="122.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">27.0%  ·  320.0 万</text>
+<text x="88.0" y="162.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="end" opacity="1.0">业务网</text>
+<rect x="100.0" y="144.0" width="20.5" height="30.0" rx="4" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.3" opacity="1.0"/>
+<text x="128.5" y="164.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">3.2%  ·  37.5 万</text>
+<text x="88.0" y="204.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="end" opacity="1.0">带外网</text>
+<rect x="100.0" y="186.0" width="11.5" height="30.0" rx="4" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.3" opacity="1.0"/>
+<text x="119.5" y="206.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">1.8%  ·  21.7 万</text>
+<text x="88.0" y="246.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="end" opacity="1.0">施工及配套</text>
+<rect x="100.0" y="228.0" width="21.1" height="30.0" rx="4" fill="#f4f4f1" stroke="#4a4a46" stroke-width="1.3" opacity="1.0"/>
+<text x="129.1" y="248.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">3.3%  ·  38.7 万</text>
+<rect x="100.0" y="274.0" width="414.1" height="30.0" rx="4" fill="#f4f4f1" stroke="#1a1a1a" stroke-width="1.5" opacity="1.0"/>
+<text x="522.1" y="294.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="700" fill="#1a1a1a" text-anchor="start" opacity="1.0">合计 1 184.2 万</text>
+<text x="380.0" y="340.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">★ 计算网与存储网合计 92%，带外 + 业务 + 施工不到 8%：做预算的精力该放在哪里，这张图说得比经验清楚。</text>
+</svg>

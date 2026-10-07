@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" width="760" height="390" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="390" fill="#ffffff"/>
+<text x="380.0" y="26.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">PTP（IEEE 1588v2）时间同步层级：统一时间轴 = 跨域问题可对齐</text>
+<rect x="290.0" y="48.0" width="180.0" height="44.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="380.0" y="70.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">主时钟 GM（Grandmaster）</text>
+<rect x="150.0" y="150.0" width="160.0" height="48.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="230.0" y="166.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">边界时钟 BC</text>
+<text x="230.0" y="181.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">（管理平面）</text>
+<line x1="380.0" y1="92.0" x2="230.0" y2="150.0" stroke="#5a3f86" stroke-width="1.4"/>
+<line x1="380.0" y1="92.0" x2="230.0" y2="150.0" stroke="#5a3f86" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="360.0" y="150.0" width="160.0" height="48.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="440.0" y="166.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">边界时钟 BC</text>
+<text x="440.0" y="181.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">（业务平面）</text>
+<line x1="380.0" y1="92.0" x2="440.0" y2="150.0" stroke="#5a3f86" stroke-width="1.4"/>
+<line x1="380.0" y1="92.0" x2="440.0" y2="150.0" stroke="#5a3f86" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="570.0" y="150.0" width="160.0" height="48.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="650.0" y="166.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">边界时钟 BC</text>
+<text x="650.0" y="181.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">（存储平面）</text>
+<line x1="380.0" y1="92.0" x2="650.0" y2="150.0" stroke="#5a3f86" stroke-width="1.4"/>
+<line x1="380.0" y1="92.0" x2="650.0" y2="150.0" stroke="#5a3f86" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="150.0" y="246.0" width="160.0" height="40.0" rx="6" fill="#f4f4f1" stroke="#4a4a46" stroke-width="1.4" opacity="1.0"/>
+<text x="230.0" y="266.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">从时钟 / 支持 PTP 的网卡与交换机</text>
+<line x1="230.0" y1="198.0" x2="230.0" y2="246.0" stroke="#5a3f86" stroke-width="1.3"/>
+<line x1="230.0" y1="198.0" x2="230.0" y2="246.0" stroke="#5a3f86" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="360.0" y="246.0" width="160.0" height="40.0" rx="6" fill="#f4f4f1" stroke="#4a4a46" stroke-width="1.4" opacity="1.0"/>
+<text x="440.0" y="266.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">从时钟 / 支持 PTP 的网卡与交换机</text>
+<line x1="440.0" y1="198.0" x2="440.0" y2="246.0" stroke="#5a3f86" stroke-width="1.3"/>
+<line x1="440.0" y1="198.0" x2="440.0" y2="246.0" stroke="#5a3f86" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="570.0" y="246.0" width="160.0" height="40.0" rx="6" fill="#f4f4f1" stroke="#4a4a46" stroke-width="1.4" opacity="1.0"/>
+<text x="650.0" y="266.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">从时钟 / 支持 PTP 的网卡与交换机</text>
+<line x1="650.0" y1="198.0" x2="650.0" y2="246.0" stroke="#5a3f86" stroke-width="1.3"/>
+<line x1="650.0" y1="198.0" x2="650.0" y2="246.0" stroke="#5a3f86" stroke-width="1.3" marker-end="url(#ah-s)"/>
+<rect x="60.0" y="312.0" width="640.0" height="52.0" rx="8" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.4" opacity="1.0"/>
+<text x="380.0" y="334.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">为什么需要它：单点误码会被同步屏障放大成全局停摆</text>
+<text x="380.0" y="353.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">PTP 把“某条链路慢了 200 µs”从“查不出来”变成“一眼定位到具体时刻与端口”。</text>
+</svg>

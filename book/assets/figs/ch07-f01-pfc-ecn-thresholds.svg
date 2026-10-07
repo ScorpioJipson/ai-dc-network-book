@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+<line x1="80.0" y1="300.0" x2="720.0" y2="300.0" stroke="#1a1a1a" stroke-width="1.8"/>
+<line x1="80.0" y1="300.0" x2="720.0" y2="300.0" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#ah)"/>
+<text x="716.0" y="326.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="normal" fill="#1a1a1a" text-anchor="end" opacity="1.0">交换机队列深度（占用缓冲 →）</text>
+<rect x="80.0" y="118.0" width="620.0" height="40.0" rx="4" fill="#f5f5f2" stroke="#cfcfc9" stroke-width="1.2" opacity="1.0"/>
+<rect x="80.0" y="118.0" width="120.0" height="40.0" rx="4" fill="#dceee2" stroke="#2e6b45" stroke-width="0" opacity="1.0"/>
+<rect x="200.0" y="118.0" width="210.0" height="40.0" rx="0" fill="#fff3cf" stroke="#8a6a00" stroke-width="0" opacity="1.0"/>
+<rect x="410.0" y="118.0" width="100.0" height="40.0" rx="0" fill="#f7e6d2" stroke="#9a5b12" stroke-width="0" opacity="1.0"/>
+<rect x="510.0" y="118.0" width="190.0" height="40.0" rx="4" fill="#f7dcdc" stroke="#a02020" stroke-width="0" opacity="1.0"/>
+<line x1="200.0" y1="100.0" x2="200.0" y2="308.0" stroke="#1a1a1a" stroke-width="1.4" stroke-dasharray="5 4"/>
+<line x1="410.0" y1="100.0" x2="410.0" y2="308.0" stroke="#1a1a1a" stroke-width="1.4" stroke-dasharray="5 4"/>
+<line x1="510.0" y1="100.0" x2="510.0" y2="308.0" stroke="#1a1a1a" stroke-width="1.4" stroke-dasharray="5 4"/>
+<line x1="700.0" y1="100.0" x2="700.0" y2="308.0" stroke="#a02020" stroke-width="1.6"/>
+<text x="200.0" y="92.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Kmin</text>
+<text x="200.0" y="356.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">按比例标记 ECN</text>
+<text x="410.0" y="92.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">Kmax</text>
+<text x="410.0" y="356.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">全部标记 100%</text>
+<text x="510.0" y="92.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">XOFF 门限</text>
+<text x="510.0" y="356.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">触发 PFC 反压</text>
+<text x="734.0" y="92.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="end" opacity="1.0">XOFF + Headroom</text>
+<text x="734.0" y="356.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.8" font-weight="normal" fill="#4a4a46" text-anchor="end" opacity="1.0">缓冲耗尽 → 丢包 / 死锁</text>
+<text x="160.0" y="143.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">无标记</text>
+<text x="305.0" y="143.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">ECN 标记区（DCQCN 降速）</text>
+<text x="460.0" y="143.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#9a5b12" text-anchor="middle" opacity="1.0">PFC 反压</text>
+<text x="610.0" y="143.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#a02020" text-anchor="middle" opacity="1.0">Headroom（≈160 KB）</text>
+<text x="80.0" y="330.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">队列深度（占用 →）</text>
+<text x="380.0" y="390.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">★ 设计目标：让 ECN 先干活、让 PFC 尽量别干活。PFC 频繁触发 = 缓冲区算术已经出问题。</text>
+</svg>

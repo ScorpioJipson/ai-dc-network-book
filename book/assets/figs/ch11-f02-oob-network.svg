@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 344" width="760" height="344" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="344" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">带外管理平面：端口账留有余量，地址还必须全局查重</text>
+<rect x="270.0" y="50.0" width="220.0" height="44.0" rx="6" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.4" opacity="1.0"/>
+<text x="380.0" y="72.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">带外核心交换机 ×2</text>
+<rect x="46.0" y="128.0" width="118.0" height="40.0" rx="6" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.4" opacity="1.0"/>
+<text x="105.0" y="148.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">48 口千兆接入 1</text>
+<line x1="105.0" y1="128.0" x2="105.0" y2="96.0" stroke="#9a5b12" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="184.0" y="128.0" width="118.0" height="40.0" rx="6" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.4" opacity="1.0"/>
+<text x="243.0" y="148.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">48 口千兆接入 2</text>
+<line x1="243.0" y1="128.0" x2="243.0" y2="96.0" stroke="#9a5b12" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="322.0" y="128.0" width="118.0" height="40.0" rx="6" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.4" opacity="1.0"/>
+<text x="381.0" y="148.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">48 口千兆接入 3</text>
+<line x1="381.0" y1="128.0" x2="381.0" y2="96.0" stroke="#9a5b12" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="460.0" y="128.0" width="118.0" height="40.0" rx="6" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.4" opacity="1.0"/>
+<text x="519.0" y="148.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">48 口千兆接入 4</text>
+<line x1="519.0" y1="128.0" x2="519.0" y2="96.0" stroke="#9a5b12" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="598.0" y="128.0" width="118.0" height="40.0" rx="6" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.4" opacity="1.0"/>
+<text x="657.0" y="148.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">48 口千兆接入 5</text>
+<line x1="657.0" y1="128.0" x2="657.0" y2="96.0" stroke="#9a5b12" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="381.0" y1="96.0" x2="380.0" y2="96.0" stroke="#9a5b12" stroke-width="1.4"/>
+<line x1="380.0" y1="96.0" x2="380.0" y2="94.0" stroke="#9a5b12" stroke-width="1.4"/>
+<rect x="46.0" y="196.0" width="667.0" height="62.0" rx="8" fill="#f4f4f1" stroke="#1a1a1a" stroke-width="1.4" opacity="1.0"/>
+<text x="380.0" y="220.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">接入需求 = 服务器 BMC 128 + 全网设备带外 45 + 运维 OPS ×2 = 175 个口</text>
+<text x="380.0" y="242.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">5 台 × 48 口 = 240 口 → 余量 65 口，留有余量</text>
+<rect x="46.0" y="272.0" width="330.0" height="60.0" rx="6" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.3" opacity="1.0"/>
+<text x="62.0" y="294.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">设备带外：10.0.10.0/24  VLAN 10</text>
+<text x="62.0" y="316.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">BMC 带外：10.0.11.0/24  VLAN 11</text>
+<rect x="390.0" y="272.0" width="323.0" height="60.0" rx="6" fill="#f7dcdc" stroke="#a02020" stroke-width="1.3" opacity="1.0"/>
+<text x="404.0" y="294.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">一期曾撞号：两段都规划在 10.0.10.0/24</text>
+<text x="404.0" y="316.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">修正：BMC 整体移到 10.0.11.0/24</text>
+<text x="380.0" y="54.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="1" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0"></text>
+</svg>

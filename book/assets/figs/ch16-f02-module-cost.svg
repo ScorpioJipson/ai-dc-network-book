@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 352" width="760" height="352" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="352" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">网络设备与材料成本结构（96 台口径，总额约 1 979 万元【推算】）</text>
+<rect x="34.0" y="50.0" width="692.0" height="32.0" rx="5" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.2" opacity="1.0"/>
+<text x="46.0" y="71.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">交换机整机（Leaf / Spine / 存储，26 台）</text>
+<text x="470.0" y="71.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1f4e79" text-anchor="start" opacity="1.0">41.7%</text>
+<text x="560.0" y="71.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">金额最大的一类（设备类口径）</text>
+<rect x="34.0" y="88.0" width="692.0" height="32.0" rx="5" fill="#f7dcdc" stroke="#a02020" stroke-width="1.2" opacity="1.0"/>
+<text x="46.0" y="109.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">光模块（计算网，3 072 只 × 2 400 元）</text>
+<text x="470.0" y="109.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">37.3%</text>
+<text x="560.0" y="109.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">★ 金额最大的单项物料：约 737 万元</text>
+<rect x="34.0" y="126.0" width="692.0" height="32.0" rx="5" fill="#dceee2" stroke="#2e6b45" stroke-width="1.2" opacity="1.0"/>
+<text x="46.0" y="147.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">线缆与配线（MPO / LC / 配线箱 / 分支缆）</text>
+<text x="470.0" y="147.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#2e6b45" text-anchor="start" opacity="1.0">11.4%</text>
+<text x="560.0" y="147.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">含 5% 备件</text>
+<rect x="34.0" y="164.0" width="692.0" height="32.0" rx="5" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.2" opacity="1.0"/>
+<text x="46.0" y="185.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">施工、服务、备件、文档、其他</text>
+<text x="470.0" y="185.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#9a5b12" text-anchor="start" opacity="1.0">7.5%</text>
+<text x="560.0" y="185.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">人天单价差别很大，见 16.5</text>
+<rect x="34.0" y="202.0" width="692.0" height="32.0" rx="5" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.2" opacity="1.0"/>
+<text x="46.0" y="223.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="600" fill="#1a1a1a" text-anchor="start" opacity="1.0">光模块（存储网，约 258 只）</text>
+<text x="470.0" y="223.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#5c5c58" text-anchor="start" opacity="1.0">2.1%</text>
+<text x="560.0" y="223.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">与计算网模块不同款</text>
+<rect x="34.0" y="248.0" width="692.0" height="94.0" rx="6" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.5" opacity="1.0"/>
+<text x="48.0" y="270.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.6" font-weight="700" fill="#8a6a00" text-anchor="start" opacity="1.0">★ 两句话不矛盾：交换机按“设备类”最大；光模块按“单项物料”最大。</text>
+<text x="48.0" y="292.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">为什么它特别容易变成最大单项：① 数量随卡数线性放大（约 4 只/卡）；② 单价“看起来不贵”；</text>
+<text x="48.0" y="310.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">③ 同时被拓扑与收敛比决定 —— 所以它也是最容易通过设计降本的一类。</text>
+<text x="48.0" y="332.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#a02020" text-anchor="start" opacity="1.0">降本路径一（代价最大的一条）：收敛比从 1:1 收到 2:1，上联模块减半，可省约 184 万元【推算】——但要付性能代价。</text>
+</svg>

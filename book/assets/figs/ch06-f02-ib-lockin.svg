@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 314" width="760" height="314" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="314" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">IB 的“软硬一体”：具体绑在三处锁上</text>
+<rect x="34.0" y="56.0" width="208.0" height="176.0" rx="8" fill="#f7dcdc" stroke="#a02020" stroke-width="1.5" opacity="1.0"/>
+<text x="138.0" y="84.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#a02020" text-anchor="middle" opacity="1.0">① 链路层实现锁</text>
+<text x="138.0" y="123.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">物理层与链路层是私有实现</text>
+<text x="138.0" y="138.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">光模块 / 线缆 / 交换机必须同生态并认证</text>
+<text x="138.0" y="153.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">现场不能像以太网那样自由换品牌与批次</text>
+<rect x="270.0" y="56.0" width="208.0" height="176.0" rx="8" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.5" opacity="1.0"/>
+<text x="374.0" y="84.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#9a5b12" text-anchor="middle" opacity="1.0">② 管理面锁</text>
+<text x="374.0" y="123.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">Subnet Manager 与 UFM 类产品</text>
+<text x="374.0" y="138.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">路由计算、故障诊断、性能监控都依赖原厂管理软件</text>
+<text x="374.0" y="153.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">管理软件通常是持续性授权支出</text>
+<rect x="506.0" y="56.0" width="208.0" height="176.0" rx="8" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.5" opacity="1.0"/>
+<text x="610.0" y="84.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#5a3f86" text-anchor="middle" opacity="1.0">③ 备件与扩容锁</text>
+<text x="610.0" y="123.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">扩容必须走原厂</text>
+<text x="610.0" y="138.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">关键件的交期与价格不受自己控制</text>
+<text x="610.0" y="153.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">先配 GPU、后回头找网络关键件的代价最大</text>
+<rect x="34.0" y="246.0" width="692.0" height="54.0" rx="6" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.3" opacity="1.0"/>
+<text x="380.0" y="270.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">这三处锁不是缺点，是价格的一部分 ——</text>
+<text x="380.0" y="290.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.6" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">你要的“免调优、免回归验证”，代价就是不能自由换供应商、不能自己定义扩容节奏。</text>
+</svg>

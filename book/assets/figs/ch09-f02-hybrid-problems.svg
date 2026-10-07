@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 358" width="760" height="358" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="358" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">混合组网（网络国产 + 加速卡进口）的四个问题与四条措施</text>
+<rect x="28.0" y="48.0" width="340.0" height="62.0" rx="6" fill="#f7dcdc" stroke="#a02020" stroke-width="1.3" opacity="1.0"/>
+<text x="44.0" y="70.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">问题一　性能基线的归属</text>
+<text x="44.0" y="86.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">不达标是网卡、交换机还是驱动？</text>
+<text x="44.0" y="98.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">两边各有各的“合格”定义</text>
+<line x1="372.0" y1="79.0" x2="400.0" y2="79.0" stroke="#4a4a46" stroke-width="1.4"/>
+<line x1="372.0" y1="79.0" x2="400.0" y2="79.0" stroke="#4a4a46" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="404.0" y="48.0" width="328.0" height="62.0" rx="6" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.2" opacity="1.0"/>
+<text x="418.0" y="72.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">明确“端到端测试”为唯一判据</text>
+<text x="418.0" y="85.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">双方共同见证 / 验收条款</text>
+<rect x="28.0" y="120.0" width="340.0" height="62.0" rx="6" fill="#f7dcdc" stroke="#a02020" stroke-width="1.3" opacity="1.0"/>
+<text x="44.0" y="142.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">问题二　故障归属的界定</text>
+<text x="44.0" y="158.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">一端 A 品牌网卡、一端 B 品牌交换机</text>
+<text x="44.0" y="170.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">光模块由谁提供？出问题谁负责？</text>
+<line x1="372.0" y1="151.0" x2="400.0" y2="151.0" stroke="#4a4a46" stroke-width="1.4"/>
+<line x1="372.0" y1="151.0" x2="400.0" y2="151.0" stroke="#4a4a46" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="404.0" y="120.0" width="328.0" height="62.0" rx="6" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.2" opacity="1.0"/>
+<text x="418.0" y="144.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">明确模块归属与跨供应商分界点</text>
+<text x="418.0" y="157.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">交付界面条款</text>
+<rect x="28.0" y="192.0" width="340.0" height="62.0" rx="6" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.3" opacity="1.0"/>
+<text x="44.0" y="214.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="700" fill="#9a5b12" text-anchor="start" opacity="1.0">问题三　兼容性验证的深度</text>
+<text x="44.0" y="230.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">“能通”和“能跑满”是两件事</text>
+<text x="44.0" y="242.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">各自测试都合格，合起来未必</text>
+<line x1="372.0" y1="223.0" x2="400.0" y2="223.0" stroke="#4a4a46" stroke-width="1.4"/>
+<line x1="372.0" y1="223.0" x2="400.0" y2="223.0" stroke="#4a4a46" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="404.0" y="192.0" width="328.0" height="62.0" rx="6" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.2" opacity="1.0"/>
+<text x="418.0" y="216.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">合同约定“端到端性能指标”</text>
+<text x="418.0" y="229.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">而非“各自达标” / 验收条款</text>
+<rect x="28.0" y="264.0" width="340.0" height="62.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.3" opacity="1.0"/>
+<text x="44.0" y="286.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.8" font-weight="700" fill="#5a3f86" text-anchor="start" opacity="1.0">问题四　版本升级的联动</text>
+<text x="44.0" y="302.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">交换机固件升级是否要求网卡驱动同步？</text>
+<text x="44.0" y="314.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.2" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">两边升级节奏由谁协调？</text>
+<line x1="372.0" y1="295.0" x2="400.0" y2="295.0" stroke="#4a4a46" stroke-width="1.4"/>
+<line x1="372.0" y1="295.0" x2="400.0" y2="295.0" stroke="#4a4a46" stroke-width="1.4" marker-end="url(#ah-s)"/>
+<rect x="404.0" y="264.0" width="328.0" height="62.0" rx="6" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.2" opacity="1.0"/>
+<text x="418.0" y="288.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">约定版本兼容性矩阵</text>
+<text x="418.0" y="301.5" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.4" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">与升级协调机制 / 运维条款</text>
+<rect x="28.0" y="338.0" width="704.0" height="0.0" rx="6" fill="none" stroke="none" stroke-width="1.4" opacity="1.0"/>
+<text x="380.0" y="350.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">★ 第二条“光模块归属”最容易被忽略、也最容易在出问题时扯不清：把两端模块与光纤作为“链路整体”由网络方提供。</text>
+</svg>

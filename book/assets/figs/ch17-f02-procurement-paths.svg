@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="330" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">三条采购路径：关键设备、标准件、施工服务各走各的</text>
+<rect x="34.0" y="50.0" width="208.0" height="130.0" rx="8" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.5" opacity="1.0"/>
+<text x="138.0" y="76.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1f4e79" text-anchor="middle" opacity="1.0">原厂直采 / 授权总代</text>
+<text x="48.0" y="102.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">适用：交换机整机等关键设备</text>
+<text x="48.0" y="126.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">优势：保修与技术支持的确定性</text>
+<text x="48.0" y="150.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">代价：价格弹性小、账期紧</text>
+<rect x="270.0" y="50.0" width="208.0" height="130.0" rx="8" fill="#dceee2" stroke="#2e6b45" stroke-width="1.5" opacity="1.0"/>
+<text x="374.0" y="76.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#2e6b45" text-anchor="middle" opacity="1.0">总代</text>
+<text x="284.0" y="102.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">适用：模块、跳线等标准物料</text>
+<text x="284.0" y="126.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">优势：价格与货源优势</text>
+<text x="284.0" y="150.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">前提：型号与批次可控</text>
+<rect x="506.0" y="50.0" width="208.0" height="130.0" rx="8" fill="#f7e6d2" stroke="#9a5b12" stroke-width="1.5" opacity="1.0"/>
+<text x="610.0" y="76.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#9a5b12" text-anchor="middle" opacity="1.0">集成商</text>
+<text x="520.0" y="102.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">适用：施工与服务</text>
+<text x="520.0" y="126.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">优势：一站式，界面清晰</text>
+<text x="520.0" y="150.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">前提：技术口径不外放</text>
+<rect x="34.0" y="194.0" width="692.0" height="56.0" rx="6" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.4" opacity="1.0"/>
+<text x="48.0" y="216.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.4" font-weight="700" fill="#8a6a00" text-anchor="start" opacity="1.0">搭配的铁律：同一条链路的两端尽量同源 —— 否则打流不达标时，两端厂商可以互相指对方。</text>
+<text x="48.0" y="238.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#4a4a46" text-anchor="start" opacity="1.0">同源供货，是“责任可追溯”的供应链前提。</text>
+<rect x="34.0" y="262.0" width="692.0" height="54.0" rx="6" fill="#f7dcdc" stroke="#a02020" stroke-width="1.4" opacity="1.0"/>
+<text x="48.0" y="284.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.4" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">★ 渠道的定位：只负责转发与催办，不承担技术判断，也不直接对外发技术表。</text>
+<text x="48.0" y="304.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="normal" fill="#1a1a1a" text-anchor="start" opacity="1.0">一句话边界：技术口径承建方定，商务节奏渠道跑。</text>
+</svg>

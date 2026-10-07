@@ -1,0 +1,11 @@
+# 统一换行符：仓库内一律 LF，避免 Windows 工作区把 CRLF 带进版本库
+* text=auto
+*.md    text eol=lf
+*.py    text eol=lf
+*.yml   text eol=lf
+*.svg   text eol=lf
+*.txt   text eol=lf
+LICENSE text eol=lf
+
+# SVG 在 GitHub 上按文本统计语言
+*.svg linguist-language=SVG

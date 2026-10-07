@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="330" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">NVLink 域边界：域内单 450 GB/s 对出网口单 50 GB/s —— 9 : 1</text>
+<rect x="40.0" y="52.0" width="300.0" height="190.0" rx="8" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.5" opacity="1.0"/>
+<text x="190.0" y="76.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#5a3f86" text-anchor="middle" opacity="1.0">NVLink 域（机内）</text>
+<rect x="64.0" y="96.0" width="56.0" height="34.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="92.0" y="113.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">GPU1</text>
+<rect x="64.0" y="186.0" width="56.0" height="34.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="92.0" y="203.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">GPU5</text>
+<rect x="132.0" y="96.0" width="56.0" height="34.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="160.0" y="113.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">GPU2</text>
+<rect x="132.0" y="186.0" width="56.0" height="34.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="160.0" y="203.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">GPU6</text>
+<rect x="200.0" y="96.0" width="56.0" height="34.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="228.0" y="113.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">GPU3</text>
+<rect x="200.0" y="186.0" width="56.0" height="34.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="228.0" y="203.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">GPU7</text>
+<rect x="268.0" y="96.0" width="56.0" height="34.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="296.0" y="113.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">GPU4</text>
+<rect x="268.0" y="186.0" width="56.0" height="34.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="296.0" y="203.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">GPU8</text>
+<rect x="64.0" y="138.0" width="264.0" height="34.0" rx="6" fill="#e8e0f2" stroke="#5a3f86" stroke-width="1.4" opacity="1.0"/>
+<text x="196.0" y="155.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">NVSwitch</text>
+<text x="190.0" y="228.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#5a3f86" text-anchor="middle" opacity="1.0">900 GB/s 双向 = 450 GB/s 单向</text>
+<line x1="380.0" y1="58.0" x2="380.0" y2="236.0" stroke="#a02020" stroke-width="1.8" stroke-dasharray="7 5"/>
+<text x="380.0" y="48.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#a02020" text-anchor="middle" opacity="1.0">域 边 界</text>
+<rect x="420.0" y="52.0" width="300.0" height="190.0" rx="8" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.5" opacity="1.0"/>
+<text x="570.0" y="76.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1f4e79" text-anchor="middle" opacity="1.0">出网口（出机）</text>
+<rect x="444.0" y="110.0" width="56.0" height="34.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="472.0" y="127.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">NIC1</text>
+<rect x="512.0" y="110.0" width="56.0" height="34.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="540.0" y="127.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">NIC2</text>
+<rect x="580.0" y="110.0" width="56.0" height="34.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="608.0" y="127.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">NIC3</text>
+<rect x="648.0" y="110.0" width="56.0" height="34.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="676.0" y="127.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">NIC4</text>
+<text x="570.0" y="175.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11" font-weight="700" fill="#1f4e79" text-anchor="middle" opacity="1.0">8 × 400G = 8 × 50 GB/s 单向</text>
+<text x="570.0" y="205.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.2" font-weight="normal" fill="#4a4a46" text-anchor="middle" opacity="1.0">（合计 400 GB/s 单向）</text>
+<rect x="300.0" y="258.0" width="160.0" height="46.0" rx="8" fill="#fff3cf" stroke="#8a6a00" stroke-width="1.5" opacity="1.0"/>
+<text x="380.0" y="288.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="17" font-weight="700" fill="#8a6a00" text-anchor="middle" opacity="1.0">9 : 1</text>
+<text x="380.0" y="322.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.6" font-weight="600" fill="#4a4a46" text-anchor="middle" opacity="1.0">依据：TP 的 AllReduce 每层都要通信，必须留在域内；出网口的只有需要跨节点的 DP / EP 部分。</text>
+</svg>

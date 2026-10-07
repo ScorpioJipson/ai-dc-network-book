@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img">
+<defs>
+  <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L7.5,3 L0,6 z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ah-s" markerWidth="8" markerHeight="8" refX="6.6" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L6.6,3 L0,6 z" fill="#4a4a46"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="760" height="340" fill="#ffffff"/>
+<text x="380.0" y="27.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">同一根线缆上的两条主机侧路径：TCP/IP 与 RDMA 的差别全在“拷贝与切换”</text>
+<rect x="30.0" y="48.0" width="332.0" height="250.0" rx="8" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.3" stroke-dasharray="5 4" opacity="1.0"/>
+<text x="196.0" y="70.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">TCP/IP 路径（内核协议栈）</text>
+<rect x="50.0" y="88.0" width="208.0" height="30.0" rx="6" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.4" opacity="1.0"/>
+<text x="154.0" y="103.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">应用缓冲（用户态）</text>
+<rect x="50.0" y="128.0" width="208.0" height="30.0" rx="6" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.4" opacity="1.0"/>
+<text x="154.0" y="143.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">内核 Socket 缓冲</text>
+<line x1="154.0" y1="118.0" x2="154.0" y2="127.0" stroke="#a02020" stroke-width="1.5"/>
+<line x1="154.0" y1="118.0" x2="154.0" y2="127.0" stroke="#a02020" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="266.0" y="126.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.8" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">内存拷贝 ①</text>
+<rect x="50.0" y="168.0" width="208.0" height="30.0" rx="6" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.4" opacity="1.0"/>
+<text x="154.0" y="183.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">TCP/IP 协议栈逐包处理</text>
+<line x1="154.0" y1="158.0" x2="154.0" y2="167.0" stroke="#a02020" stroke-width="1.5"/>
+<line x1="154.0" y1="158.0" x2="154.0" y2="167.0" stroke="#a02020" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="266.0" y="166.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.8" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">内存拷贝 ②</text>
+<rect x="50.0" y="208.0" width="208.0" height="30.0" rx="6" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.4" opacity="1.0"/>
+<text x="154.0" y="223.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">中断 / 上下文切换</text>
+<line x1="154.0" y1="198.0" x2="154.0" y2="207.0" stroke="#a02020" stroke-width="1.5"/>
+<line x1="154.0" y1="198.0" x2="154.0" y2="207.0" stroke="#a02020" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="266.0" y="206.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.8" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">上下文切换</text>
+<rect x="50.0" y="248.0" width="208.0" height="30.0" rx="6" fill="#e9e9e5" stroke="#5c5c58" stroke-width="1.4" opacity="1.0"/>
+<text x="154.0" y="263.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">网卡 DMA → 线缆</text>
+<line x1="154.0" y1="238.0" x2="154.0" y2="247.0" stroke="#a02020" stroke-width="1.5"/>
+<line x1="154.0" y1="238.0" x2="154.0" y2="247.0" stroke="#a02020" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="266.0" y="246.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="8.8" font-weight="700" fill="#a02020" text-anchor="start" opacity="1.0">中断 + 轮询</text>
+<rect x="420.0" y="48.0" width="300.0" height="250.0" rx="8" fill="#fbfbf8" stroke="#cfcfc9" stroke-width="1.3" stroke-dasharray="5 4" opacity="1.0"/>
+<text x="570.0" y="70.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="11.5" font-weight="700" fill="#1a1a1a" text-anchor="middle" opacity="1.0">RDMA 路径（内核旁路 + 零拷贝）</text>
+<rect x="442.0" y="88.0" width="256.0" height="34.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="570.0" y="105.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">应用注册内存（用户态）</text>
+<rect x="442.0" y="168.0" width="256.0" height="34.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="570.0" y="185.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">网卡直接读取（DMA）</text>
+<rect x="442.0" y="248.0" width="256.0" height="34.0" rx="6" fill="#dbe6f5" stroke="#1f4e79" stroke-width="1.4" opacity="1.0"/>
+<text x="570.0" y="265.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#1a1a1a" text-anchor="middle" opacity="1.0">网卡 → 线缆</text>
+<line x1="570.0" y1="124.0" x2="570.0" y2="166.0" stroke="#1f4e79" stroke-width="1.6"/>
+<line x1="570.0" y1="124.0" x2="570.0" y2="166.0" stroke="#1f4e79" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="570.0" y1="204.0" x2="570.0" y2="246.0" stroke="#1f4e79" stroke-width="1.6"/>
+<line x1="570.0" y1="204.0" x2="570.0" y2="246.0" stroke="#1f4e79" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="578.0" y="150.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="700" fill="#1f4e79" text-anchor="start" opacity="1.0">无拷贝</text>
+<text x="578.0" y="230.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="9.5" font-weight="700" fill="#1f4e79" text-anchor="start" opacity="1.0">无上下文切换</text>
+<text x="380.0" y="318.0" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, sans-serif" font-size="10.5" font-weight="600" fill="#4a4a46" text-anchor="middle" opacity="1.0">线缆上的传输时间两者相同；差别全在主机侧 —— 拷贝次数与上下文切换次数决定单次延迟与 CPU 占用。</text>
+</svg>
